@@ -1,0 +1,6 @@
+framework module Pods_TimedSliver_OC_Example {
+  umbrella header "Pods-TimedSliver-OC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

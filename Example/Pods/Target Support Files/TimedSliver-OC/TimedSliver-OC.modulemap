@@ -1,0 +1,6 @@
+framework module TimedSliver_OC {
+  umbrella header "TimedSliver-OC-umbrella.h"
+
+  export *
+  module * { export * }
+}

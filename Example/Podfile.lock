@@ -1,0 +1,16 @@
+PODS:
+  - TimedSliver-OC (0.1.0)
+
+DEPENDENCIES:
+  - TimedSliver-OC (from `../`)
+
+EXTERNAL SOURCES:
+  TimedSliver-OC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TimedSliver-OC: 18228e642591e401b59ad6fee1e9ba32a154fbd9
+
+PODFILE CHECKSUM: e2326f906c2d4564326acabf2ce1543bb6037bac
+
+COCOAPODS: 1.2.1

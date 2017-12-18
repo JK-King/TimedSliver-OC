@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TimedSliver-OC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TimedSliver-OC.'
+  s.summary          = 'TimedSliver-OC'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'TimedSliver-OC仿照Swift的TimedSliver，封装的常用类的扩展'
 
   s.homepage         = 'https://github.com/JK-King/TimedSliver-OC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
