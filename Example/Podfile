@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TimedSliver-OC_Example' do
+  pod 'TimedSliver-OC', :path => '../'
+
+  target 'TimedSliver-OC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
