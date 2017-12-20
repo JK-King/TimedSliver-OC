@@ -1,5 +1,5 @@
 PODS:
-  - TimedSliver-OC (0.1.0)
+  - TimedSliver-OC (0.1.1)
 
 DEPENDENCIES:
   - TimedSliver-OC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TimedSliver-OC: 45dd5dd4a37af57bca22df048d52987567a08721
+  TimedSliver-OC: 8faa556d48ab8de1a767f533deb2f96565f81542
 
 PODFILE CHECKSUM: e2326f906c2d4564326acabf2ce1543bb6037bac
 
