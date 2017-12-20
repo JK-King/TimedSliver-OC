@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (JKCategory)
-    
+
 + (instancetype)jk_initFromNib;
         
 @end

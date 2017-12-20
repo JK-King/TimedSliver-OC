@@ -10,10 +10,14 @@
 
 @implementation NSObject (JKCategory)
 
-@dynamic jk_className;
-    
-- (NSString *)jk_className {
+/// The class's name
++ (NSString *)jk_className {
     return [[NSStringFromClass([self class]) componentsSeparatedByString:@"."] lastObject];
 }
-    
+
+/// The class's identifier, for UITableView，UICollectionView register its cell
++ (NSString *)jk_identifier {
+    return [NSString stringWithFormat:@"%@_identifier", self.jk_className];
+}
+
 @end

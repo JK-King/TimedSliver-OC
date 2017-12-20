@@ -1,8 +1,8 @@
 {
   "name": "TimedSliver-OC",
   "version": "0.1.0",
-  "summary": "A short description of TimedSliver-OC.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "TimedSliver-OC",
+  "description": "TimedSliver-OC仿照Swift的TimedSliver，封装的常用类的扩展",
   "homepage": "https://github.com/JK-King/TimedSliver-OC",
   "license": {
     "type": "MIT",

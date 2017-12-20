@@ -8,6 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		27FA404D32BC283A441DB2385408EEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3453CFF01FE8BCE1007CF2E8 /* NSBundle+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453CFEE1FE8BCE1007CF2E8 /* NSBundle+JKCategory.h */; };
+		3453CFF11FE8BCE1007CF2E8 /* NSBundle+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453CFEF1FE8BCE1007CF2E8 /* NSBundle+JKCategory.m */; };
+		3453CFF41FE8C366007CF2E8 /* NSObject+JKSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453CFF21FE8C366007CF2E8 /* NSObject+JKSize.h */; };
+		3453CFF51FE8C366007CF2E8 /* NSObject+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453CFF31FE8C366007CF2E8 /* NSObject+JKSize.m */; };
+		3453CFF81FE8CFCE007CF2E8 /* NSData+JKData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453CFF61FE8CFCE007CF2E8 /* NSData+JKData.h */; };
+		3453CFF91FE8CFCE007CF2E8 /* NSData+JKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453CFF71FE8CFCE007CF2E8 /* NSData+JKData.m */; };
+		3453CFFC1FE8EA36007CF2E8 /* NSDate+JKDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453CFFA1FE8EA36007CF2E8 /* NSDate+JKDate.h */; };
+		3453CFFD1FE8EA36007CF2E8 /* NSDate+JKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453CFFB1FE8EA36007CF2E8 /* NSDate+JKDate.m */; };
+		3453D0001FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453CFFE1FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.h */; };
+		3453D0011FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453CFFF1FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.m */; };
+		3453D0041FE8F19A007CF2E8 /* NSFileManager+JKFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453D0021FE8F19A007CF2E8 /* NSFileManager+JKFileManager.h */; };
+		3453D0051FE8F19A007CF2E8 /* NSFileManager+JKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453D0031FE8F19A007CF2E8 /* NSFileManager+JKFileManager.m */; };
+		3453D0081FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453D0061FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.h */; };
+		3453D0091FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453D0071FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.m */; };
+		34D510171FE9FDA400092713 /* NSIndexSet+JKIndexSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D510151FE9FDA400092713 /* NSIndexSet+JKIndexSet.h */; };
+		34D510181FE9FDA400092713 /* NSIndexSet+JKIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D510161FE9FDA400092713 /* NSIndexSet+JKIndexSet.m */; };
+		34D5101B1FEA071A00092713 /* NSString+JKString.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D510191FEA071A00092713 /* NSString+JKString.h */; };
+		34D5101C1FEA071A00092713 /* NSString+JKString.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D5101A1FEA071A00092713 /* NSString+JKString.m */; };
+		34D5101F1FEA108A00092713 /* NSString+JKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D5101D1FEA108A00092713 /* NSString+JKCrypto.h */; };
+		34D510201FEA108A00092713 /* NSString+JKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D5101E1FEA108A00092713 /* NSString+JKCrypto.m */; };
+		34D510231FEA10BE00092713 /* NSString+JKSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D510211FEA10BE00092713 /* NSString+JKSize.h */; };
+		34D510241FEA10BE00092713 /* NSString+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D510221FEA10BE00092713 /* NSString+JKSize.m */; };
+		34D510281FEA3DC700092713 /* NSObject+JKCountdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D510261FEA3DC700092713 /* NSObject+JKCountdown.h */; };
+		34D510291FEA3DC700092713 /* NSObject+JKCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D510271FEA3DC700092713 /* NSObject+JKCountdown.m */; };
+		34D510301FEA496300092713 /* UIAlertController+JKAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D5102E1FEA496300092713 /* UIAlertController+JKAlert.h */; };
+		34D510311FEA496300092713 /* UIAlertController+JKAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D5102F1FEA496300092713 /* UIAlertController+JKAlert.m */; };
+		34D510341FEA4DC500092713 /* UIApplication+JKApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D510321FEA4DC500092713 /* UIApplication+JKApplication.h */; };
+		34D510351FEA4DC500092713 /* UIApplication+JKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D510331FEA4DC500092713 /* UIApplication+JKApplication.m */; };
 		493E54FBC12AB113BCA64C50A555E8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4B7D89B60BDB4014B33C04D06706D7A6 /* NSObject+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 253C0EAD67F49DDCBF8FA3497D71B46D /* NSObject+JKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508443168E5C976A88CA39322BF95082 /* Pods-TimedSliver-OC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50E4ED734FF39076188CC6107D186F /* Pods-TimedSliver-OC_Example-dummy.m */; };
@@ -37,21 +65,49 @@
 		0C6036C785EDD51C3DFEC0D381870575 /* Pods-TimedSliver-OC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedSliver-OC_Example-resources.sh"; sourceTree = "<group>"; };
 		13D06BB1A19E1DB032543FBAFA22A610 /* TimedSliver-OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSliver-OC-prefix.pch"; sourceTree = "<group>"; };
 		253C0EAD67F49DDCBF8FA3497D71B46D /* NSObject+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKCategory.h"; sourceTree = "<group>"; };
+		3453CFEE1FE8BCE1007CF2E8 /* NSBundle+JKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JKCategory.h"; sourceTree = "<group>"; };
+		3453CFEF1FE8BCE1007CF2E8 /* NSBundle+JKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JKCategory.m"; sourceTree = "<group>"; };
+		3453CFF21FE8C366007CF2E8 /* NSObject+JKSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKSize.h"; sourceTree = "<group>"; };
+		3453CFF31FE8C366007CF2E8 /* NSObject+JKSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKSize.m"; sourceTree = "<group>"; };
+		3453CFF61FE8CFCE007CF2E8 /* NSData+JKData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+JKData.h"; sourceTree = "<group>"; };
+		3453CFF71FE8CFCE007CF2E8 /* NSData+JKData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKData.m"; sourceTree = "<group>"; };
+		3453CFFA1FE8EA36007CF2E8 /* NSDate+JKDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKDate.h"; sourceTree = "<group>"; };
+		3453CFFB1FE8EA36007CF2E8 /* NSDate+JKDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKDate.m"; sourceTree = "<group>"; };
+		3453CFFE1FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JKDictionary.h"; sourceTree = "<group>"; };
+		3453CFFF1FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JKDictionary.m"; sourceTree = "<group>"; };
+		3453D0021FE8F19A007CF2E8 /* NSFileManager+JKFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JKFileManager.h"; sourceTree = "<group>"; };
+		3453D0031FE8F19A007CF2E8 /* NSFileManager+JKFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+JKFileManager.m"; sourceTree = "<group>"; };
+		3453D0061FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+JKIndexPath.h"; sourceTree = "<group>"; };
+		3453D0071FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+JKIndexPath.m"; sourceTree = "<group>"; };
+		34D510151FE9FDA400092713 /* NSIndexSet+JKIndexSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+JKIndexSet.h"; sourceTree = "<group>"; };
+		34D510161FE9FDA400092713 /* NSIndexSet+JKIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+JKIndexSet.m"; sourceTree = "<group>"; };
+		34D510191FEA071A00092713 /* NSString+JKString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JKString.h"; sourceTree = "<group>"; };
+		34D5101A1FEA071A00092713 /* NSString+JKString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKString.m"; sourceTree = "<group>"; };
+		34D5101D1FEA108A00092713 /* NSString+JKCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JKCrypto.h"; sourceTree = "<group>"; };
+		34D5101E1FEA108A00092713 /* NSString+JKCrypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKCrypto.m"; sourceTree = "<group>"; };
+		34D510211FEA10BE00092713 /* NSString+JKSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JKSize.h"; sourceTree = "<group>"; };
+		34D510221FEA10BE00092713 /* NSString+JKSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKSize.m"; sourceTree = "<group>"; };
+		34D510261FEA3DC700092713 /* NSObject+JKCountdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKCountdown.h"; sourceTree = "<group>"; };
+		34D510271FEA3DC700092713 /* NSObject+JKCountdown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKCountdown.m"; sourceTree = "<group>"; };
+		34D5102E1FEA496300092713 /* UIAlertController+JKAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+JKAlert.h"; sourceTree = "<group>"; };
+		34D5102F1FEA496300092713 /* UIAlertController+JKAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+JKAlert.m"; sourceTree = "<group>"; };
+		34D510321FEA4DC500092713 /* UIApplication+JKApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JKApplication.h"; sourceTree = "<group>"; };
+		34D510331FEA4DC500092713 /* UIApplication+JKApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JKApplication.m"; sourceTree = "<group>"; };
 		39DAA7071689E83D2D683173325EA867 /* Pods-TimedSliver-OC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		43856D02D1B25A2903925659A0F63FC1 /* TimedSliver-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "TimedSliver-OC.modulemap"; sourceTree = "<group>"; };
+		43856D02D1B25A2903925659A0F63FC1 /* TimedSliver-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "TimedSliver-OC.modulemap"; sourceTree = "<group>"; };
 		4CF4B2872AA450192884290E88FE5DA0 /* Pods-TimedSliver-OC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimedSliver-OC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D5C332D9C88A3379F39C6AF3DC9474F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		555ABAC9F3A1FB5409FE128651DCEAA4 /* Pods_TimedSliver_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimedSliver_OC_Tests.framework; path = "Pods-TimedSliver-OC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5794E85D54A3283BDB5F99C73B452E6C /* Pods-TimedSliver-OC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TimedSliver-OC_Example.modulemap"; sourceTree = "<group>"; };
+		555ABAC9F3A1FB5409FE128651DCEAA4 /* Pods_TimedSliver_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimedSliver_OC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5794E85D54A3283BDB5F99C73B452E6C /* Pods-TimedSliver-OC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimedSliver-OC_Example.modulemap"; sourceTree = "<group>"; };
 		5B50E4ED734FF39076188CC6107D186F /* Pods-TimedSliver-OC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimedSliver-OC_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70114CA1E41453B2B879227AE76B6B6A /* Pods-TimedSliver-OC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimedSliver-OC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75BBF602E8922F3CBCBDADFDFD1CCE5E /* Pods-TimedSliver-OC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimedSliver-OC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7822370DADCE0550958E85471A7D8F65 /* UIViewController+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JKCategory.m"; sourceTree = "<group>"; };
 		838C26642DC58294F7B0B817EB75A87B /* Pods-TimedSliver-OC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		86443C432846DC3DEDB5B88F6DD1C8A2 /* Pods-TimedSliver-OC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TimedSliver-OC_Tests.modulemap"; sourceTree = "<group>"; };
+		86443C432846DC3DEDB5B88F6DD1C8A2 /* Pods-TimedSliver-OC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimedSliver-OC_Tests.modulemap"; sourceTree = "<group>"; };
 		880B815A1F64CC8FBD0AAE3F3448508B /* TimedSliver-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSliver-OC-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11B386EA8A0EF335A8FAF8EB3944268 /* Pods-TimedSliver-OC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1F4C7D9134C27150C40CE69C39D686D /* Pods-TimedSliver-OC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimedSliver-OC_Example-umbrella.h"; sourceTree = "<group>"; };
 		B5D8B8404223FCFD332CB60C72B1C524 /* Pods-TimedSliver-OC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedSliver-OC_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -61,13 +117,13 @@
 		BCC762BFCC029C67F7A496434EC866C2 /* Pods-TimedSliver-OC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimedSliver-OC_Tests-dummy.m"; sourceTree = "<group>"; };
 		C21124CE6B57B497C51978D7EEFA482A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C854017855346A77396020681BCC9D19 /* NSObject+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKCategory.m"; sourceTree = "<group>"; };
-		CD85843F24B9E39449075FC7C6864CF4 /* Pods_TimedSliver_OC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimedSliver_OC_Example.framework; path = "Pods-TimedSliver-OC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD85843F24B9E39449075FC7C6864CF4 /* Pods_TimedSliver_OC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimedSliver_OC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1569F7D3C50E50DE58F109964A6629 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA38638E107CD2C46D227F7A5779DFB1 /* Pods-TimedSliver-OC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F199C39F95FB82667E6C438A824DA67F /* TimedSliver-OC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TimedSliver-OC.xcconfig"; sourceTree = "<group>"; };
 		F22506798C378857B6B67744C56270B9 /* TimedSliver-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimedSliver-OC-dummy.m"; sourceTree = "<group>"; };
 		F68E4FA83035032DDC8F6A39C88BC34B /* UIViewController+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JKCategory.h"; sourceTree = "<group>"; };
-		F8C6711FC0FB20A4E6038525E375B96C /* TimedSliver_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimedSliver_OC.framework; path = "TimedSliver-OC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C6711FC0FB20A4E6038525E375B96C /* TimedSliver_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimedSliver_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +159,6 @@
 			children = (
 				5EF24AFBB306F5ACB344F601D0436A6D /* Classes */,
 			);
-			name = "TimedSliver-OC";
 			path = "TimedSliver-OC";
 			sourceTree = "<group>";
 		};
@@ -114,8 +169,35 @@
 				C854017855346A77396020681BCC9D19 /* NSObject+JKCategory.m */,
 				F68E4FA83035032DDC8F6A39C88BC34B /* UIViewController+JKCategory.h */,
 				7822370DADCE0550958E85471A7D8F65 /* UIViewController+JKCategory.m */,
+				3453CFEE1FE8BCE1007CF2E8 /* NSBundle+JKCategory.h */,
+				3453CFEF1FE8BCE1007CF2E8 /* NSBundle+JKCategory.m */,
+				3453CFF21FE8C366007CF2E8 /* NSObject+JKSize.h */,
+				3453CFF31FE8C366007CF2E8 /* NSObject+JKSize.m */,
+				3453CFF61FE8CFCE007CF2E8 /* NSData+JKData.h */,
+				3453CFF71FE8CFCE007CF2E8 /* NSData+JKData.m */,
+				3453CFFA1FE8EA36007CF2E8 /* NSDate+JKDate.h */,
+				3453CFFB1FE8EA36007CF2E8 /* NSDate+JKDate.m */,
+				3453CFFE1FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.h */,
+				3453CFFF1FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.m */,
+				3453D0021FE8F19A007CF2E8 /* NSFileManager+JKFileManager.h */,
+				3453D0031FE8F19A007CF2E8 /* NSFileManager+JKFileManager.m */,
+				3453D0061FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.h */,
+				3453D0071FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.m */,
+				34D510151FE9FDA400092713 /* NSIndexSet+JKIndexSet.h */,
+				34D510161FE9FDA400092713 /* NSIndexSet+JKIndexSet.m */,
+				34D510191FEA071A00092713 /* NSString+JKString.h */,
+				34D5101A1FEA071A00092713 /* NSString+JKString.m */,
+				34D5101D1FEA108A00092713 /* NSString+JKCrypto.h */,
+				34D5101E1FEA108A00092713 /* NSString+JKCrypto.m */,
+				34D510211FEA10BE00092713 /* NSString+JKSize.h */,
+				34D510221FEA10BE00092713 /* NSString+JKSize.m */,
+				34D510261FEA3DC700092713 /* NSObject+JKCountdown.h */,
+				34D510271FEA3DC700092713 /* NSObject+JKCountdown.m */,
+				34D5102E1FEA496300092713 /* UIAlertController+JKAlert.h */,
+				34D5102F1FEA496300092713 /* UIAlertController+JKAlert.m */,
+				34D510321FEA4DC500092713 /* UIApplication+JKApplication.h */,
+				34D510331FEA4DC500092713 /* UIApplication+JKApplication.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -250,7 +332,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D5101B1FEA071A00092713 /* NSString+JKString.h in Headers */,
+				3453CFF01FE8BCE1007CF2E8 /* NSBundle+JKCategory.h in Headers */,
+				34D510231FEA10BE00092713 /* NSString+JKSize.h in Headers */,
+				34D510301FEA496300092713 /* UIAlertController+JKAlert.h in Headers */,
+				3453CFFC1FE8EA36007CF2E8 /* NSDate+JKDate.h in Headers */,
+				3453D0081FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.h in Headers */,
+				3453D0041FE8F19A007CF2E8 /* NSFileManager+JKFileManager.h in Headers */,
+				34D510171FE9FDA400092713 /* NSIndexSet+JKIndexSet.h in Headers */,
+				34D5101F1FEA108A00092713 /* NSString+JKCrypto.h in Headers */,
+				3453D0001FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.h in Headers */,
+				34D510341FEA4DC500092713 /* UIApplication+JKApplication.h in Headers */,
 				6747101D07BDC75BE77F132DED761D92 /* Pods-TimedSliver-OC_Example-umbrella.h in Headers */,
+				3453CFF81FE8CFCE007CF2E8 /* NSData+JKData.h in Headers */,
+				3453CFF41FE8C366007CF2E8 /* NSObject+JKSize.h in Headers */,
+				34D510281FEA3DC700092713 /* NSObject+JKCountdown.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +465,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				508443168E5C976A88CA39322BF95082 /* Pods-TimedSliver-OC_Example-dummy.m in Sources */,
+				3453CFFD1FE8EA36007CF2E8 /* NSDate+JKDate.m in Sources */,
+				34D510291FEA3DC700092713 /* NSObject+JKCountdown.m in Sources */,
+				3453CFF11FE8BCE1007CF2E8 /* NSBundle+JKCategory.m in Sources */,
+				3453CFF51FE8C366007CF2E8 /* NSObject+JKSize.m in Sources */,
+				3453CFF91FE8CFCE007CF2E8 /* NSData+JKData.m in Sources */,
+				34D510311FEA496300092713 /* UIAlertController+JKAlert.m in Sources */,
+				34D5101C1FEA071A00092713 /* NSString+JKString.m in Sources */,
+				3453D0011FE8ECC8007CF2E8 /* NSDictionary+JKDictionary.m in Sources */,
+				3453D0051FE8F19A007CF2E8 /* NSFileManager+JKFileManager.m in Sources */,
+				34D510351FEA4DC500092713 /* UIApplication+JKApplication.m in Sources */,
+				34D510201FEA108A00092713 /* NSString+JKCrypto.m in Sources */,
+				34D510181FE9FDA400092713 /* NSIndexSet+JKIndexSet.m in Sources */,
+				3453D0091FE9157F007CF2E8 /* NSIndexPath+JKIndexPath.m in Sources */,
+				34D510241FEA10BE00092713 /* NSString+JKSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

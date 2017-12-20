@@ -10,6 +10,8 @@
 
 @interface NSObject (JKCategory)
 
-@property (nonatomic, copy) NSString *jk_className;
-    
+@property (class, nonatomic, copy, readonly, getter=jk_className) NSString *className;
+
+@property (class, nonatomic, copy, readonly, getter=jk_identifier) NSString *identifier;
+
 @end

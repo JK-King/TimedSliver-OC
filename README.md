@@ -1,5 +1,7 @@
 # TimedSliver-OC
 
+All about Object-C extension
+
 [![CI Status](http://img.shields.io/travis/JK-King/TimedSliver-OC.svg?style=flat)](https://travis-ci.org/JK-King/TimedSliver-OC)
 [![Version](https://img.shields.io/cocoapods/v/TimedSliver-OC.svg?style=flat)](http://cocoapods.org/pods/TimedSliver-OC)
 [![License](https://img.shields.io/cocoapods/l/TimedSliver-OC.svg?style=flat)](http://cocoapods.org/pods/TimedSliver-OC)
@@ -22,7 +24,7 @@ pod 'TimedSliver-OC'
 
 ## Author
 
-JK-King, zhang_jiankun521@163.com
+JK-King
 
 ## License
 
