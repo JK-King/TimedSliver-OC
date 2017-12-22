@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C275A31FED0F1F0051AB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275A21FED0F1F0051AB9B /* AppDelegate.m */; };
+		34C275A61FED0F1F0051AB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275A51FED0F1F0051AB9B /* ViewController.m */; };
+		34C275A91FED0F1F0051AB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C275A71FED0F1F0051AB9B /* Main.storyboard */; };
+		34C275AB1FED0F1F0051AB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C275AA1FED0F1F0051AB9B /* Assets.xcassets */; };
+		34C275AE1FED0F1F0051AB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C275AC1FED0F1F0051AB9B /* LaunchScreen.storyboard */; };
+		34C275B11FED0F1F0051AB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275B01FED0F1F0051AB9B /* main.m */; };
+		34C275BB1FED0F1F0051AB9B /* TimedSliver_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275BA1FED0F1F0051AB9B /* TimedSliver_OCTests.m */; };
+		34C275C61FED0F1F0051AB9B /* TimedSliver_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275C51FED0F1F0051AB9B /* TimedSliver_OCUITests.m */; };
+		34C275FA1FED0F7B0051AB9B /* NSDate+JKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275D61FED0F7B0051AB9B /* NSDate+JKDate.m */; };
+		34C275FB1FED0F7B0051AB9B /* UIApplication+JKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275D71FED0F7B0051AB9B /* UIApplication+JKApplication.m */; };
+		34C275FC1FED0F7B0051AB9B /* UIColor+JKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275D81FED0F7B0051AB9B /* UIColor+JKColor.m */; };
+		34C275FD1FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275DA1FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.m */; };
+		34C275FE1FED0F7B0051AB9B /* NSBundle+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275DB1FED0F7B0051AB9B /* NSBundle+JKCategory.m */; };
+		34C275FF1FED0F7B0051AB9B /* UIView+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275DD1FED0F7B0051AB9B /* UIView+JKCategory.m */; };
+		34C276001FED0F7B0051AB9B /* NSObject+JKCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275DF1FED0F7B0051AB9B /* NSObject+JKCountdown.m */; };
+		34C276011FED0F7B0051AB9B /* UIScreen+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275E21FED0F7B0051AB9B /* UIScreen+JKCategory.m */; };
+		34C276021FED0F7B0051AB9B /* NSString+JKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275E41FED0F7B0051AB9B /* NSString+JKCrypto.m */; };
+		34C276031FED0F7B0051AB9B /* NSString+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275E61FED0F7B0051AB9B /* NSString+JKSize.m */; };
+		34C276041FED0F7B0051AB9B /* NSObject+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275E71FED0F7B0051AB9B /* NSObject+JKSize.m */; };
+		34C276051FED0F7B0051AB9B /* UIAlertController+JKAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275E81FED0F7B0051AB9B /* UIAlertController+JKAlert.m */; };
+		34C276061FED0F7B0051AB9B /* NSFileManager+JKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275EC1FED0F7B0051AB9B /* NSFileManager+JKFileManager.m */; };
+		34C276071FED0F7B0051AB9B /* NSObject+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275EE1FED0F7B0051AB9B /* NSObject+JKCategory.m */; };
+		34C276081FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275F21FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.m */; };
+		34C276091FED0F7B0051AB9B /* UIViewController+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275F51FED0F7B0051AB9B /* UIViewController+JKCategory.m */; };
+		34C2760A1FED0F7B0051AB9B /* NSData+JKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275F61FED0F7B0051AB9B /* NSData+JKData.m */; };
+		34C2760B1FED0F7B0051AB9B /* NSDictionary+JKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275F71FED0F7B0051AB9B /* NSDictionary+JKDictionary.m */; };
+		34C2760C1FED0F7B0051AB9B /* NSString+JKString.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C275F81FED0F7B0051AB9B /* NSString+JKString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34C275B71FED0F1F0051AB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C275961FED0F1F0051AB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C2759D1FED0F1F0051AB9B;
+			remoteInfo = "TimedSliver-OC";
+		};
+		34C275C21FED0F1F0051AB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C275961FED0F1F0051AB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C2759D1FED0F1F0051AB9B;
+			remoteInfo = "TimedSliver-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34C2759E1FED0F1F0051AB9B /* TimedSliver-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimedSliver-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C275A11FED0F1F0051AB9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34C275A21FED0F1F0051AB9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34C275A41FED0F1F0051AB9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34C275A51FED0F1F0051AB9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34C275A81FED0F1F0051AB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34C275AA1FED0F1F0051AB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C275AD1FED0F1F0051AB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C275AF1FED0F1F0051AB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C275B01FED0F1F0051AB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34C275B61FED0F1F0051AB9B /* TimedSliver-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimedSliver-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C275BA1FED0F1F0051AB9B /* TimedSliver_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimedSliver_OCTests.m; sourceTree = "<group>"; };
+		34C275BC1FED0F1F0051AB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C275C11FED0F1F0051AB9B /* TimedSliver-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimedSliver-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C275C51FED0F1F0051AB9B /* TimedSliver_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimedSliver_OCUITests.m; sourceTree = "<group>"; };
+		34C275C71FED0F1F0051AB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C275D41FED0F7B0051AB9B /* NSObject+JKSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKSize.h"; sourceTree = "<group>"; };
+		34C275D51FED0F7B0051AB9B /* NSFileManager+JKFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JKFileManager.h"; sourceTree = "<group>"; };
+		34C275D61FED0F7B0051AB9B /* NSDate+JKDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKDate.m"; sourceTree = "<group>"; };
+		34C275D71FED0F7B0051AB9B /* UIApplication+JKApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JKApplication.m"; sourceTree = "<group>"; };
+		34C275D81FED0F7B0051AB9B /* UIColor+JKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JKColor.m"; sourceTree = "<group>"; };
+		34C275D91FED0F7B0051AB9B /* UIAlertController+JKAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+JKAlert.h"; sourceTree = "<group>"; };
+		34C275DA1FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+JKIndexPath.m"; sourceTree = "<group>"; };
+		34C275DB1FED0F7B0051AB9B /* NSBundle+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JKCategory.m"; sourceTree = "<group>"; };
+		34C275DC1FED0F7B0051AB9B /* NSObject+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKCategory.h"; sourceTree = "<group>"; };
+		34C275DD1FED0F7B0051AB9B /* UIView+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKCategory.m"; sourceTree = "<group>"; };
+		34C275DE1FED0F7B0051AB9B /* NSString+JKString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKString.h"; sourceTree = "<group>"; };
+		34C275DF1FED0F7B0051AB9B /* NSObject+JKCountdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKCountdown.m"; sourceTree = "<group>"; };
+		34C275E01FED0F7B0051AB9B /* NSDictionary+JKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JKDictionary.h"; sourceTree = "<group>"; };
+		34C275E11FED0F7B0051AB9B /* NSData+JKData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKData.h"; sourceTree = "<group>"; };
+		34C275E21FED0F7B0051AB9B /* UIScreen+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+JKCategory.m"; sourceTree = "<group>"; };
+		34C275E31FED0F7B0051AB9B /* UIViewController+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JKCategory.h"; sourceTree = "<group>"; };
+		34C275E41FED0F7B0051AB9B /* NSString+JKCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKCrypto.m"; sourceTree = "<group>"; };
+		34C275E51FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+JKIndexSet.h"; sourceTree = "<group>"; };
+		34C275E61FED0F7B0051AB9B /* NSString+JKSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKSize.m"; sourceTree = "<group>"; };
+		34C275E71FED0F7B0051AB9B /* NSObject+JKSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKSize.m"; sourceTree = "<group>"; };
+		34C275E81FED0F7B0051AB9B /* UIAlertController+JKAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+JKAlert.m"; sourceTree = "<group>"; };
+		34C275E91FED0F7B0051AB9B /* UIColor+JKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JKColor.h"; sourceTree = "<group>"; };
+		34C275EA1FED0F7B0051AB9B /* UIApplication+JKApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JKApplication.h"; sourceTree = "<group>"; };
+		34C275EB1FED0F7B0051AB9B /* NSDate+JKDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKDate.h"; sourceTree = "<group>"; };
+		34C275EC1FED0F7B0051AB9B /* NSFileManager+JKFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+JKFileManager.m"; sourceTree = "<group>"; };
+		34C275ED1FED0F7B0051AB9B /* UIView+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKCategory.h"; sourceTree = "<group>"; };
+		34C275EE1FED0F7B0051AB9B /* NSObject+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKCategory.m"; sourceTree = "<group>"; };
+		34C275EF1FED0F7B0051AB9B /* NSBundle+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JKCategory.h"; sourceTree = "<group>"; };
+		34C275F01FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+JKIndexPath.h"; sourceTree = "<group>"; };
+		34C275F11FED0F7B0051AB9B /* NSString+JKSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKSize.h"; sourceTree = "<group>"; };
+		34C275F21FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+JKIndexSet.m"; sourceTree = "<group>"; };
+		34C275F31FED0F7B0051AB9B /* NSString+JKCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKCrypto.h"; sourceTree = "<group>"; };
+		34C275F41FED0F7B0051AB9B /* UIScreen+JKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+JKCategory.h"; sourceTree = "<group>"; };
+		34C275F51FED0F7B0051AB9B /* UIViewController+JKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JKCategory.m"; sourceTree = "<group>"; };
+		34C275F61FED0F7B0051AB9B /* NSData+JKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKData.m"; sourceTree = "<group>"; };
+		34C275F71FED0F7B0051AB9B /* NSDictionary+JKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JKDictionary.m"; sourceTree = "<group>"; };
+		34C275F81FED0F7B0051AB9B /* NSString+JKString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKString.m"; sourceTree = "<group>"; };
+		34C275F91FED0F7B0051AB9B /* NSObject+JKCountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKCountdown.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C2759B1FED0F1F0051AB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C275B31FED0F1F0051AB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C275BE1FED0F1F0051AB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C275951FED0F1F0051AB9B = {
+			isa = PBXGroup;
+			children = (
+				34C275A01FED0F1F0051AB9B /* TimedSliver-OC */,
+				34C275B91FED0F1F0051AB9B /* TimedSliver-OCTests */,
+				34C275C41FED0F1F0051AB9B /* TimedSliver-OCUITests */,
+				34C2759F1FED0F1F0051AB9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C2759F1FED0F1F0051AB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C2759E1FED0F1F0051AB9B /* TimedSliver-OC.app */,
+				34C275B61FED0F1F0051AB9B /* TimedSliver-OCTests.xctest */,
+				34C275C11FED0F1F0051AB9B /* TimedSliver-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C275A01FED0F1F0051AB9B /* TimedSliver-OC */ = {
+			isa = PBXGroup;
+			children = (
+				34C275D31FED0F7B0051AB9B /* sources */,
+				34C275A11FED0F1F0051AB9B /* AppDelegate.h */,
+				34C275A21FED0F1F0051AB9B /* AppDelegate.m */,
+				34C275A41FED0F1F0051AB9B /* ViewController.h */,
+				34C275A51FED0F1F0051AB9B /* ViewController.m */,
+				34C275A71FED0F1F0051AB9B /* Main.storyboard */,
+				34C275AA1FED0F1F0051AB9B /* Assets.xcassets */,
+				34C275AC1FED0F1F0051AB9B /* LaunchScreen.storyboard */,
+				34C275AF1FED0F1F0051AB9B /* Info.plist */,
+				34C275B01FED0F1F0051AB9B /* main.m */,
+			);
+			path = "TimedSliver-OC";
+			sourceTree = "<group>";
+		};
+		34C275B91FED0F1F0051AB9B /* TimedSliver-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				34C275BA1FED0F1F0051AB9B /* TimedSliver_OCTests.m */,
+				34C275BC1FED0F1F0051AB9B /* Info.plist */,
+			);
+			path = "TimedSliver-OCTests";
+			sourceTree = "<group>";
+		};
+		34C275C41FED0F1F0051AB9B /* TimedSliver-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34C275C51FED0F1F0051AB9B /* TimedSliver_OCUITests.m */,
+				34C275C71FED0F1F0051AB9B /* Info.plist */,
+			);
+			path = "TimedSliver-OCUITests";
+			sourceTree = "<group>";
+		};
+		34C275D31FED0F7B0051AB9B /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				34C275D41FED0F7B0051AB9B /* NSObject+JKSize.h */,
+				34C275D51FED0F7B0051AB9B /* NSFileManager+JKFileManager.h */,
+				34C275D61FED0F7B0051AB9B /* NSDate+JKDate.m */,
+				34C275D71FED0F7B0051AB9B /* UIApplication+JKApplication.m */,
+				34C275D81FED0F7B0051AB9B /* UIColor+JKColor.m */,
+				34C275D91FED0F7B0051AB9B /* UIAlertController+JKAlert.h */,
+				34C275DA1FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.m */,
+				34C275DB1FED0F7B0051AB9B /* NSBundle+JKCategory.m */,
+				34C275DC1FED0F7B0051AB9B /* NSObject+JKCategory.h */,
+				34C275DD1FED0F7B0051AB9B /* UIView+JKCategory.m */,
+				34C275DE1FED0F7B0051AB9B /* NSString+JKString.h */,
+				34C275DF1FED0F7B0051AB9B /* NSObject+JKCountdown.m */,
+				34C275E01FED0F7B0051AB9B /* NSDictionary+JKDictionary.h */,
+				34C275E11FED0F7B0051AB9B /* NSData+JKData.h */,
+				34C275E21FED0F7B0051AB9B /* UIScreen+JKCategory.m */,
+				34C275E31FED0F7B0051AB9B /* UIViewController+JKCategory.h */,
+				34C275E41FED0F7B0051AB9B /* NSString+JKCrypto.m */,
+				34C275E51FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.h */,
+				34C275E61FED0F7B0051AB9B /* NSString+JKSize.m */,
+				34C275E71FED0F7B0051AB9B /* NSObject+JKSize.m */,
+				34C275E81FED0F7B0051AB9B /* UIAlertController+JKAlert.m */,
+				34C275E91FED0F7B0051AB9B /* UIColor+JKColor.h */,
+				34C275EA1FED0F7B0051AB9B /* UIApplication+JKApplication.h */,
+				34C275EB1FED0F7B0051AB9B /* NSDate+JKDate.h */,
+				34C275EC1FED0F7B0051AB9B /* NSFileManager+JKFileManager.m */,
+				34C275ED1FED0F7B0051AB9B /* UIView+JKCategory.h */,
+				34C275EE1FED0F7B0051AB9B /* NSObject+JKCategory.m */,
+				34C275EF1FED0F7B0051AB9B /* NSBundle+JKCategory.h */,
+				34C275F01FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.h */,
+				34C275F11FED0F7B0051AB9B /* NSString+JKSize.h */,
+				34C275F21FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.m */,
+				34C275F31FED0F7B0051AB9B /* NSString+JKCrypto.h */,
+				34C275F41FED0F7B0051AB9B /* UIScreen+JKCategory.h */,
+				34C275F51FED0F7B0051AB9B /* UIViewController+JKCategory.m */,
+				34C275F61FED0F7B0051AB9B /* NSData+JKData.m */,
+				34C275F71FED0F7B0051AB9B /* NSDictionary+JKDictionary.m */,
+				34C275F81FED0F7B0051AB9B /* NSString+JKString.m */,
+				34C275F91FED0F7B0051AB9B /* NSObject+JKCountdown.h */,
+			);
+			name = sources;
+			path = ../../sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C2759D1FED0F1F0051AB9B /* TimedSliver-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C275CA1FED0F1F0051AB9B /* Build configuration list for PBXNativeTarget "TimedSliver-OC" */;
+			buildPhases = (
+				34C2759A1FED0F1F0051AB9B /* Sources */,
+				34C2759B1FED0F1F0051AB9B /* Frameworks */,
+				34C2759C1FED0F1F0051AB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimedSliver-OC";
+			productName = "TimedSliver-OC";
+			productReference = 34C2759E1FED0F1F0051AB9B /* TimedSliver-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C275B51FED0F1F0051AB9B /* TimedSliver-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C275CD1FED0F1F0051AB9B /* Build configuration list for PBXNativeTarget "TimedSliver-OCTests" */;
+			buildPhases = (
+				34C275B21FED0F1F0051AB9B /* Sources */,
+				34C275B31FED0F1F0051AB9B /* Frameworks */,
+				34C275B41FED0F1F0051AB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C275B81FED0F1F0051AB9B /* PBXTargetDependency */,
+			);
+			name = "TimedSliver-OCTests";
+			productName = "TimedSliver-OCTests";
+			productReference = 34C275B61FED0F1F0051AB9B /* TimedSliver-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34C275C01FED0F1F0051AB9B /* TimedSliver-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C275D01FED0F1F0051AB9B /* Build configuration list for PBXNativeTarget "TimedSliver-OCUITests" */;
+			buildPhases = (
+				34C275BD1FED0F1F0051AB9B /* Sources */,
+				34C275BE1FED0F1F0051AB9B /* Frameworks */,
+				34C275BF1FED0F1F0051AB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C275C31FED0F1F0051AB9B /* PBXTargetDependency */,
+			);
+			name = "TimedSliver-OCUITests";
+			productName = "TimedSliver-OCUITests";
+			productReference = 34C275C11FED0F1F0051AB9B /* TimedSliver-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C275961FED0F1F0051AB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jiankun Zhang";
+				TargetAttributes = {
+					34C2759D1FED0F1F0051AB9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					34C275B51FED0F1F0051AB9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34C2759D1FED0F1F0051AB9B;
+					};
+					34C275C01FED0F1F0051AB9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34C2759D1FED0F1F0051AB9B;
+					};
+				};
+			};
+			buildConfigurationList = 34C275991FED0F1F0051AB9B /* Build configuration list for PBXProject "TimedSliver-OC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C275951FED0F1F0051AB9B;
+			productRefGroup = 34C2759F1FED0F1F0051AB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C2759D1FED0F1F0051AB9B /* TimedSliver-OC */,
+				34C275B51FED0F1F0051AB9B /* TimedSliver-OCTests */,
+				34C275C01FED0F1F0051AB9B /* TimedSliver-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C2759C1FED0F1F0051AB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C275AE1FED0F1F0051AB9B /* LaunchScreen.storyboard in Resources */,
+				34C275AB1FED0F1F0051AB9B /* Assets.xcassets in Resources */,
+				34C275A91FED0F1F0051AB9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C275B41FED0F1F0051AB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C275BF1FED0F1F0051AB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C2759A1FED0F1F0051AB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C275FB1FED0F7B0051AB9B /* UIApplication+JKApplication.m in Sources */,
+				34C275FF1FED0F7B0051AB9B /* UIView+JKCategory.m in Sources */,
+				34C276051FED0F7B0051AB9B /* UIAlertController+JKAlert.m in Sources */,
+				34C2760A1FED0F7B0051AB9B /* NSData+JKData.m in Sources */,
+				34C276001FED0F7B0051AB9B /* NSObject+JKCountdown.m in Sources */,
+				34C2760B1FED0F7B0051AB9B /* NSDictionary+JKDictionary.m in Sources */,
+				34C276091FED0F7B0051AB9B /* UIViewController+JKCategory.m in Sources */,
+				34C275FE1FED0F7B0051AB9B /* NSBundle+JKCategory.m in Sources */,
+				34C275A61FED0F1F0051AB9B /* ViewController.m in Sources */,
+				34C276011FED0F7B0051AB9B /* UIScreen+JKCategory.m in Sources */,
+				34C276081FED0F7B0051AB9B /* NSIndexSet+JKIndexSet.m in Sources */,
+				34C2760C1FED0F7B0051AB9B /* NSString+JKString.m in Sources */,
+				34C275B11FED0F1F0051AB9B /* main.m in Sources */,
+				34C276021FED0F7B0051AB9B /* NSString+JKCrypto.m in Sources */,
+				34C275FD1FED0F7B0051AB9B /* NSIndexPath+JKIndexPath.m in Sources */,
+				34C276041FED0F7B0051AB9B /* NSObject+JKSize.m in Sources */,
+				34C275A31FED0F1F0051AB9B /* AppDelegate.m in Sources */,
+				34C275FC1FED0F7B0051AB9B /* UIColor+JKColor.m in Sources */,
+				34C275FA1FED0F7B0051AB9B /* NSDate+JKDate.m in Sources */,
+				34C276071FED0F7B0051AB9B /* NSObject+JKCategory.m in Sources */,
+				34C276031FED0F7B0051AB9B /* NSString+JKSize.m in Sources */,
+				34C276061FED0F7B0051AB9B /* NSFileManager+JKFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C275B21FED0F1F0051AB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C275BB1FED0F1F0051AB9B /* TimedSliver_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C275BD1FED0F1F0051AB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C275C61FED0F1F0051AB9B /* TimedSliver_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C275B81FED0F1F0051AB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C2759D1FED0F1F0051AB9B /* TimedSliver-OC */;
+			targetProxy = 34C275B71FED0F1F0051AB9B /* PBXContainerItemProxy */;
+		};
+		34C275C31FED0F1F0051AB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C2759D1FED0F1F0051AB9B /* TimedSliver-OC */;
+			targetProxy = 34C275C21FED0F1F0051AB9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34C275A71FED0F1F0051AB9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C275A81FED0F1F0051AB9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34C275AC1FED0F1F0051AB9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C275AD1FED0F1F0051AB9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C275C81FED0F1F0051AB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34C275C91FED0F1F0051AB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C275CB1FED0F1F0051AB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				INFOPLIST_FILE = "TimedSliver-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boe.TimedSliver-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C275CC1FED0F1F0051AB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				INFOPLIST_FILE = "TimedSliver-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boe.TimedSliver-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34C275CE1FED0F1F0051AB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				INFOPLIST_FILE = "TimedSliver-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boe.TimedSliver-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimedSliver-OC.app/TimedSliver-OC";
+			};
+			name = Debug;
+		};
+		34C275CF1FED0F1F0051AB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				INFOPLIST_FILE = "TimedSliver-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boe.TimedSliver-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimedSliver-OC.app/TimedSliver-OC";
+			};
+			name = Release;
+		};
+		34C275D11FED0F1F0051AB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				INFOPLIST_FILE = "TimedSliver-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boe.TimedSliver-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TimedSliver-OC";
+			};
+			name = Debug;
+		};
+		34C275D21FED0F1F0051AB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				INFOPLIST_FILE = "TimedSliver-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boe.TimedSliver-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TimedSliver-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C275991FED0F1F0051AB9B /* Build configuration list for PBXProject "TimedSliver-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C275C81FED0F1F0051AB9B /* Debug */,
+				34C275C91FED0F1F0051AB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C275CA1FED0F1F0051AB9B /* Build configuration list for PBXNativeTarget "TimedSliver-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C275CB1FED0F1F0051AB9B /* Debug */,
+				34C275CC1FED0F1F0051AB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C275CD1FED0F1F0051AB9B /* Build configuration list for PBXNativeTarget "TimedSliver-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C275CE1FED0F1F0051AB9B /* Debug */,
+				34C275CF1FED0F1F0051AB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C275D01FED0F1F0051AB9B /* Build configuration list for PBXNativeTarget "TimedSliver-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C275D11FED0F1F0051AB9B /* Debug */,
+				34C275D21FED0F1F0051AB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C275961FED0F1F0051AB9B /* Project object */;
+}
