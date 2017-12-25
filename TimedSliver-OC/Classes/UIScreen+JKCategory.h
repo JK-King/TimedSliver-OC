@@ -12,5 +12,8 @@
 @property (class, nonatomic, assign, readonly, getter=jk_size) CGSize jkSize;
 @property (class, nonatomic, assign, readonly, getter=jk_width) CGFloat jkWidth;
 @property (class, nonatomic, assign, readonly, getter=jk_height) CGFloat jkHeight;
+@property (class, nonatomic, assign, readonly, getter=jk_statusBarHeight) CGFloat statusBarHeight;
+@property (class, nonatomic, assign, readonly, getter=jk_navBarHeight) CGFloat navBarHeight;
+@property (class, nonatomic, assign, readonly, getter=jk_tabBarHeight) CGFloat tabBarHeight;
 
 @end
