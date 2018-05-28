@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimedSliver-OC'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'TimedSliver-OC 常用类的分类'
 
 # This description is used to generate tags and improve search results.
