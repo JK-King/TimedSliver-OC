@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimedSliver-OC'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'TimedSliver-OC 常用类的分类'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "ObjcCommonTools/**/*.{h,m}"
+  s.source_files  = "ObjcCommonTools/sources/*.{h,m}"
   
   # s.resource_bundles = {
   #   'TimedSliver-OC' => ['TimedSliver-OC/Assets/*.png']
