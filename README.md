@@ -1,5 +1,5 @@
 # TimedSliver-OC
-常用类的扩展
+常用类的扩展，包括NSBundle、NSDate、NSData、UIAlertController、UIScreen等的扩展
 
 ## Installation
 
