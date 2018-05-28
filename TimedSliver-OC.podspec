@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "TimedSliver-OC/**/*"
+  s.source_files  = "TimedSliver-OC/**/*.{h,m}"
   
   # s.resource_bundles = {
   #   'TimedSliver-OC' => ['TimedSliver-OC/Assets/*.png']
