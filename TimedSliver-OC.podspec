@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimedSliver-OC'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'TimedSliver-OC 常用类的分类'
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
