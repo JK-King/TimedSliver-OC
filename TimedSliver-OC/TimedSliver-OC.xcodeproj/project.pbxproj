@@ -13,8 +13,6 @@
 		34197BE820BCE81F0083725B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34197BE720BCE81F0083725B /* Assets.xcassets */; };
 		34197BEB20BCE81F0083725B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34197BE920BCE81F0083725B /* LaunchScreen.storyboard */; };
 		34197BEE20BCE81F0083725B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197BED20BCE81F0083725B /* main.m */; };
-		34197BF820BCE81F0083725B /* TimedSliver_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197BF720BCE81F0083725B /* TimedSliver_OCTests.m */; };
-		34197C0320BCE81F0083725B /* TimedSliver_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C0220BCE81F0083725B /* TimedSliver_OCUITests.m */; };
 		34197C3720BCE8320083725B /* NSDate+JKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C1320BCE8320083725B /* NSDate+JKDate.m */; };
 		34197C3820BCE8320083725B /* UIApplication+JKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C1420BCE8320083725B /* UIApplication+JKApplication.m */; };
 		34197C3920BCE8320083725B /* UIColor+JKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C1520BCE8320083725B /* UIColor+JKColor.m */; };
@@ -34,6 +32,8 @@
 		34197C4720BCE8320083725B /* NSData+JKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C3320BCE8320083725B /* NSData+JKData.m */; };
 		34197C4820BCE8320083725B /* NSDictionary+JKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C3420BCE8320083725B /* NSDictionary+JKDictionary.m */; };
 		34197C4920BCE8320083725B /* NSString+JKString.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C3520BCE8320083725B /* NSString+JKString.m */; };
+		34197C5220BCECB70083725B /* TimedSliver_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C5120BCECB70083725B /* TimedSliver_OCTests.m */; };
+		34197C5420BCECEE0083725B /* TimedSliver_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34197C5320BCECEE0083725B /* TimedSliver_OCUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +65,8 @@
 		34197BEC20BCE81F0083725B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34197BED20BCE81F0083725B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34197BF320BCE81F0083725B /* TimedSliver-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimedSliver-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34197BF720BCE81F0083725B /* TimedSliver_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimedSliver_OCTests.m; sourceTree = "<group>"; };
 		34197BF920BCE81F0083725B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34197BFE20BCE81F0083725B /* TimedSliver-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimedSliver-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34197C0220BCE81F0083725B /* TimedSliver_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimedSliver_OCUITests.m; sourceTree = "<group>"; };
 		34197C0420BCE81F0083725B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34197C1120BCE8320083725B /* NSObject+JKSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKSize.h"; sourceTree = "<group>"; };
 		34197C1220BCE8320083725B /* NSFileManager+JKFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JKFileManager.h"; sourceTree = "<group>"; };
@@ -108,6 +106,9 @@
 		34197C3420BCE8320083725B /* NSDictionary+JKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JKDictionary.m"; sourceTree = "<group>"; };
 		34197C3520BCE8320083725B /* NSString+JKString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKString.m"; sourceTree = "<group>"; };
 		34197C3620BCE8320083725B /* NSObject+JKCountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKCountdown.h"; sourceTree = "<group>"; };
+		34197C4B20BCEB4A0083725B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34197C5120BCECB70083725B /* TimedSliver_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimedSliver_OCTests.m; sourceTree = "<group>"; };
+		34197C5320BCECEE0083725B /* TimedSliver_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimedSliver_OCUITests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 				34197BF620BCE81F0083725B /* TimedSliver-OCTests */,
 				34197C0120BCE81F0083725B /* TimedSliver-OCUITests */,
 				34197BDC20BCE81E0083725B /* Products */,
+				34197C4A20BCEB490083725B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,7 +177,7 @@
 		34197BF620BCE81F0083725B /* TimedSliver-OCTests */ = {
 			isa = PBXGroup;
 			children = (
-				34197BF720BCE81F0083725B /* TimedSliver_OCTests.m */,
+				34197C5120BCECB70083725B /* TimedSliver_OCTests.m */,
 				34197BF920BCE81F0083725B /* Info.plist */,
 			);
 			path = "TimedSliver-OCTests";
@@ -184,7 +186,7 @@
 		34197C0120BCE81F0083725B /* TimedSliver-OCUITests */ = {
 			isa = PBXGroup;
 			children = (
-				34197C0220BCE81F0083725B /* TimedSliver_OCUITests.m */,
+				34197C5320BCECEE0083725B /* TimedSliver_OCUITests.m */,
 				34197C0420BCE81F0083725B /* Info.plist */,
 			);
 			path = "TimedSliver-OCUITests";
@@ -234,6 +236,14 @@
 			);
 			name = sources;
 			path = ../../sources;
+			sourceTree = "<group>";
+		};
+		34197C4A20BCEB490083725B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34197C4B20BCEB4A0083725B /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,7 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34197BF820BCE81F0083725B /* TimedSliver_OCTests.m in Sources */,
+				34197C5220BCECB70083725B /* TimedSliver_OCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34197C0320BCE81F0083725B /* TimedSliver_OCUITests.m in Sources */,
+				34197C5420BCECEE0083725B /* TimedSliver_OCUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = "TimedSliver-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,6 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZSYAFR9W9;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = "TimedSliver-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
