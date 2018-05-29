@@ -2,8 +2,8 @@
 //  ViewController.m
 //  TimedSliver-OC
 //
-//  Created by Jiankun Zhang on 2017/12/22.
-//  Copyright © 2017年 Jiankun Zhang. All rights reserved.
+//  Created by Jiankun Zhang on 2018/5/29.
+//  Copyright © 2018年 Jiankun Zhang. All rights reserved.
 //
 
 #import "ViewController.h"
