@@ -21,4 +21,16 @@
     return [UIScreen mainScreen].bounds.size.height;
 }
 
++ (CGFloat)jk_statusBarHeight {
+    return [[UIApplication sharedApplication] statusBarFrame].size.height;
+}
+
++ (CGFloat)jk_navBarHeight {
+    return UIScreen.jk_statusBarHeight + 44.0f;
+}
+
++ (CGFloat)jk_tabBarHeight {
+    return UIScreen.jk_statusBarHeight > 20.0f ? 83.0f : 49.0f;
+}
+
 @end

@@ -7,16 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00441737C79D98627C7388CEA14C0383 /* NSDictionary+JKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2447564252263E11ACDE3F0A4C4134 /* NSDictionary+JKDictionary.m */; };
+		01399F58631F5142B32A098A004D4E99 /* UIView+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC7AD749580D4736D07E372D9722B1E /* UIView+JKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DAB365F28DA99E136AA019A6B698A49 /* UIAlertController+JKAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = A4715FCC1DE80095804B10C57916413C /* UIAlertController+JKAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECC54C140B45965F980B77EEC3A6249 /* UIScreen+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB498AA5DB40936C8BBFC56DA37B43B /* UIScreen+JKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1768719CFBA9F1AE9BE10F6E168CF2EC /* Pods-TimedSliver-OC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDED0F6FA9696559A4A99B0AD5C960A /* Pods-TimedSliver-OC_Tests-dummy.m */; };
-		2989F6577C174CF1BD2D148D50142669 /* TimedSliver-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28EEF04F7D8184DE3E2A7178EA82C9 /* TimedSliver-OC-dummy.m */; };
+		177534250C61C52EDE9276F7260C1BBD /* NSFileManager+JKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F68753135B2A54DCE8AD1480251C121 /* NSFileManager+JKFileManager.m */; };
+		19B98B6D4930E38108FCBBCCD12DFB88 /* UIScreen+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC00F8F5591843EADA4E018D9FDBD6 /* UIScreen+JKCategory.m */; };
+		1BCDD0A4218AA7A64CBB26A8E3D95F6C /* NSString+JKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C40E7DA6572F165097183D4EE0C913 /* NSString+JKCrypto.m */; };
+		1C27B9933065744491F8F7B5CEB914B9 /* NSObject+JKCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = F36136465F8997DC1762B6031F647BB2 /* NSObject+JKCountdown.m */; };
+		1F8C8E56C1E5557C13FEC69DCC67BEC7 /* NSBundle+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0738AA49ADDC68779C1052B0B7AF2B /* NSBundle+JKCategory.m */; };
+		23A4967A177AE999958237325369214A /* NSString+JKString.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E1FF6950A5ED78100724042B2061FD /* NSString+JKString.m */; };
+		26F954DD49632664AEB008601B390B33 /* UIViewController+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 492A7FE0D042D8FB18D16BA782EFBEFB /* UIViewController+JKCategory.m */; };
+		29474C88214B819C72F11C6373500140 /* UIApplication+JKApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B7B108782520FE1A8C788D163CA2DC /* UIApplication+JKApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB41BC66827E149B7A26F539CD7F9E4 /* NSData+JKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C727E36E9219AB56C58DB6BAA8A383F /* NSData+JKData.m */; };
+		4597FCBA50BA8F4B679D7BF926B760CA /* UIApplication+JKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B6D4313D9CC0AF82FE4E7B10C97F5 /* UIApplication+JKApplication.m */; };
+		4703C8F26AA51BACC73DFBE075DA288E /* NSIndexPath+JKIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7040EDEA5A05E72E7A08F317F98A59 /* NSIndexPath+JKIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE26354793D51C7187499B37F34A6C0 /* NSDate+JKDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D39B1C82F82D660F9938D4B6EFF03AE /* NSDate+JKDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F9F0DB724C01E66B364AAAC8F532F02 /* Pods-TimedSliver-OC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB855D2D94EC0812E6F53D767BBB9C0 /* Pods-TimedSliver-OC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508443168E5C976A88CA39322BF95082 /* Pods-TimedSliver-OC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC7E4549F026F82407447D17FA31315 /* Pods-TimedSliver-OC_Example-dummy.m */; };
+		5EAC33DEED499D83A022B7EBDAEA7262 /* NSObject+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615E02E97B597AE394990E9BC41370A /* NSObject+JKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6747101D07BDC75BE77F132DED761D92 /* Pods-TimedSliver-OC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94918DF94DC128C623604C4699FA707B /* Pods-TimedSliver-OC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69EF13FAB176472B357F9FD7F25A033A /* NSIndexSet+JKIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2A7510CC8200432F0A6B85BDF2B06 /* NSIndexSet+JKIndexSet.m */; };
+		7405477BF7042D201C1A715CA10EFBA5 /* UIView+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 491BDABAF7E82DDDBF3383A632981871 /* UIView+JKCategory.m */; };
+		743282572385E4718FC3106F074C0AF2 /* NSIndexPath+JKIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5043901D626394D6D9A2EC486FAF6 /* NSIndexPath+JKIndexPath.m */; };
+		752DD62C2B344DA95C0DC91E83F35F5A /* UIAlertController+JKAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C459F57C1A36F14E16FF97CDF39DD /* UIAlertController+JKAlert.m */; };
+		7E09D0D506421DA45E0F1A6FD3AF7E7C /* NSObject+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08D5468D3248FBB744CDADE93C263 /* NSObject+JKSize.m */; };
+		85B25832B1B3E69D133B0F39DD69F64A /* NSObject+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FB15909593BF57E762D67B59C75F0FDD /* NSObject+JKCategory.m */; };
+		8CE5C4D236146949F8CE25F6831829FC /* NSData+JKData.h in Headers */ = {isa = PBXBuildFile; fileRef = 113A9A6A1DC849ADE63F05539777D60B /* NSData+JKData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F0AE201B4B0055BDFF30B0344A7584 /* NSString+JKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ABA6A5731D0D1DC1AEEDBCF67AA37 /* NSString+JKCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99C2FF3815CC41A5B26490D20BB37970 /* NSString+JKString.h in Headers */ = {isa = PBXBuildFile; fileRef = A84B93AB313E5EEC0ABD9E5148B01393 /* NSString+JKString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F3F4E68A9CCF3B149EB10E0DD9735B /* UIColor+JKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C11F3B86A086B3FE9EFC0283AD7360 /* UIColor+JKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A471EEC721FEFD331576DD9E5E9839C8 /* NSIndexSet+JKIndexSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 266DECC26083F88907735127B25AEF68 /* NSIndexSet+JKIndexSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A564755AD3EE1E8D12D52E5E31F059FF /* NSDate+JKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04B602D7E10113486D21E63E620651 /* NSDate+JKDate.m */; };
 		A722D970E891E48715720F7465EFD859 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		BD0CAE42427FC12D367A1CF9351F4583 /* TimedSliver-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D799E893759B01980894DE2370612D3B /* TimedSliver-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8BEBE50921717FB6B3063DDAA20755E /* NSString+JKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BDD57C7DC0F4A6D751503EBF03B712 /* NSString+JKSize.m */; };
+		B5A860E764916C54EC02731B49F4266C /* TimedSliver-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2857147D0FAA7A4C14B3C51C179533 /* TimedSliver-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D9EB3DF75DFF436035DB6E0D424EB5 /* UIViewController+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B830A4ACE441EB947F4988269F619C2D /* UIViewController+JKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B783FDB9C5E34C8CD43AFCFC3AD23CFC /* NSString+JKSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3690F4B309AECC62BA7324DD28F27D8C /* NSString+JKSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCF361F18AC4299C8DF5702DD08A44B4 /* NSObject+JKCountdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB2220C87AAFA04F0E9C34FD7BA4822 /* NSObject+JKCountdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7E72293288CC92AFA4C1B9FFB95F87 /* NSFileManager+JKFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5385218D55D14E817BA1F86E07B7A16 /* NSFileManager+JKFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB462D3CDA631E6C3DC6CF0134C4F9B /* NSDictionary+JKDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EFCC4520388EB16F9E09C4A748924F /* NSDictionary+JKDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC183AFEF53DD2A0359854ADD4988069 /* NSBundle+JKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A8374CFD31E38C0B87E77D56D11458EB /* NSBundle+JKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCF3D35924A80FDB9624F31AE75CBF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CE768392093A901DCAE029AB1674CC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D822E735E4ED197497B1C65AE99EDFAA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A7F6EA74FF270710324FDF5530D0D /* ReplaceMe.m */; };
+		E30789CF9F07E5D2F038DEA684CEF590 /* UIColor+JKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A0887D27B01D4EE53793E0DD639D0159 /* UIColor+JKColor.m */; };
+		EF8892A76FDA765BC4589007E196CC27 /* NSObject+JKSize.h in Headers */ = {isa = PBXBuildFile; fileRef = AF809FE0CF7CBC06B0DD01AD74854675 /* NSObject+JKSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB84D0B4D87B9C294FF0FED1384557F6 /* TimedSliver-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F492150F412118D4301EDF4EDF99D1 /* TimedSliver-OC-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,40 +74,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C4A7F6EA74FF270710324FDF5530D0D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "TimedSliver-OC/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
-		0E28EEF04F7D8184DE3E2A7178EA82C9 /* TimedSliver-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimedSliver-OC-dummy.m"; sourceTree = "<group>"; };
+		04D9FFA96B67C2DB995BAD61115D6C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0E8F8ED79E64614E602496D9868C427E /* Pods-TimedSliver-OC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		113A9A6A1DC849ADE63F05539777D60B /* NSData+JKData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+JKData.h"; path = "TimedSliver-OC/Classes/NSData+JKData.h"; sourceTree = "<group>"; };
 		122DC5519A046F02284C68C018F9EE9B /* Pods-TimedSliver-OC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2363FED575F2A4B7D09FC0456903023F /* TimedSliver-OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSliver-OC-prefix.pch"; sourceTree = "<group>"; };
+		18677B750FB1ABB8EFB501AF54A27386 /* TimedSliver-OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSliver-OC-prefix.pch"; sourceTree = "<group>"; };
+		18DC00F8F5591843EADA4E018D9FDBD6 /* UIScreen+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+JKCategory.m"; path = "TimedSliver-OC/Classes/UIScreen+JKCategory.m"; sourceTree = "<group>"; };
+		1F0ABA6A5731D0D1DC1AEEDBCF67AA37 /* NSString+JKCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKCrypto.h"; path = "TimedSliver-OC/Classes/NSString+JKCrypto.h"; sourceTree = "<group>"; };
+		239935638979D4BB4D0ADF838007C4EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24F244646A177B8A7C18AA176CE4B958 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27C0E1D8BDAD7E856321E6C7E2BFCFDE /* TimedSliver-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TimedSliver-OC.modulemap"; sourceTree = "<group>"; };
+		266DECC26083F88907735127B25AEF68 /* NSIndexSet+JKIndexSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+JKIndexSet.h"; path = "TimedSliver-OC/Classes/NSIndexSet+JKIndexSet.h"; sourceTree = "<group>"; };
 		354A62D012B42BE48D33380DD800BEE3 /* Pods-TimedSliver-OC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimedSliver-OC_Tests.modulemap"; sourceTree = "<group>"; };
-		3CF1CF19B8797F668237C50B39B084FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3615E02E97B597AE394990E9BC41370A /* NSObject+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKCategory.h"; path = "TimedSliver-OC/Classes/NSObject+JKCategory.h"; sourceTree = "<group>"; };
+		3690F4B309AECC62BA7324DD28F27D8C /* NSString+JKSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKSize.h"; path = "TimedSliver-OC/Classes/NSString+JKSize.h"; sourceTree = "<group>"; };
+		3C727E36E9219AB56C58DB6BAA8A383F /* NSData+JKData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+JKData.m"; path = "TimedSliver-OC/Classes/NSData+JKData.m"; sourceTree = "<group>"; };
+		3D39B1C82F82D660F9938D4B6EFF03AE /* NSDate+JKDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+JKDate.h"; path = "TimedSliver-OC/Classes/NSDate+JKDate.h"; sourceTree = "<group>"; };
 		4595E508C634F1973DCA9F5D9C1FE181 /* Pods-TimedSliver-OC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedSliver-OC_Example-resources.sh"; sourceTree = "<group>"; };
+		45C40E7DA6572F165097183D4EE0C913 /* NSString+JKCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKCrypto.m"; path = "TimedSliver-OC/Classes/NSString+JKCrypto.m"; sourceTree = "<group>"; };
 		45F2A35D04D5CFEA28540BD89C3B23CA /* Pods-TimedSliver-OC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimedSliver-OC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4813483C4601E6CC062BC694B8175DE6 /* Pods-TimedSliver-OC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		491BDABAF7E82DDDBF3383A632981871 /* UIView+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JKCategory.m"; path = "TimedSliver-OC/Classes/UIView+JKCategory.m"; sourceTree = "<group>"; };
+		492A7FE0D042D8FB18D16BA782EFBEFB /* UIViewController+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JKCategory.m"; path = "TimedSliver-OC/Classes/UIViewController+JKCategory.m"; sourceTree = "<group>"; };
 		493DB1243E54A24B200F1A09C592BE4C /* Pods-TimedSliver-OC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedSliver-OC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		555ABAC9F3A1FB5409FE128651DCEAA4 /* Pods_TimedSliver_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimedSliver_OC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A7040EDEA5A05E72E7A08F317F98A59 /* NSIndexPath+JKIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+JKIndexPath.h"; path = "TimedSliver-OC/Classes/NSIndexPath+JKIndexPath.h"; sourceTree = "<group>"; };
+		5BC7AD749580D4736D07E372D9722B1E /* UIView+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JKCategory.h"; path = "TimedSliver-OC/Classes/UIView+JKCategory.h"; sourceTree = "<group>"; };
+		5F2857147D0FAA7A4C14B3C51C179533 /* TimedSliver-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSliver-OC-umbrella.h"; sourceTree = "<group>"; };
+		5F68753135B2A54DCE8AD1480251C121 /* NSFileManager+JKFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+JKFileManager.m"; path = "TimedSliver-OC/Classes/NSFileManager+JKFileManager.m"; sourceTree = "<group>"; };
+		6AC5043901D626394D6D9A2EC486FAF6 /* NSIndexPath+JKIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+JKIndexPath.m"; path = "TimedSliver-OC/Classes/NSIndexPath+JKIndexPath.m"; sourceTree = "<group>"; };
+		771E3CCB5F50680449ECB2D965BC2E09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD08D5468D3248FBB744CDADE93C263 /* NSObject+JKSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKSize.m"; path = "TimedSliver-OC/Classes/NSObject+JKSize.m"; sourceTree = "<group>"; };
 		7EB855D2D94EC0812E6F53D767BBB9C0 /* Pods-TimedSliver-OC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimedSliver-OC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8080F01820CF46BB4190373953CA64BF /* TimedSliver-OC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "TimedSliver-OC.podspec"; sourceTree = "<group>"; };
+		82BDD57C7DC0F4A6D751503EBF03B712 /* NSString+JKSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKSize.m"; path = "TimedSliver-OC/Classes/NSString+JKSize.m"; sourceTree = "<group>"; };
+		83A2A7510CC8200432F0A6B85BDF2B06 /* NSIndexSet+JKIndexSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+JKIndexSet.m"; path = "TimedSliver-OC/Classes/NSIndexSet+JKIndexSet.m"; sourceTree = "<group>"; };
+		83F492150F412118D4301EDF4EDF99D1 /* TimedSliver-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimedSliver-OC-dummy.m"; sourceTree = "<group>"; };
+		877236668D5E4150727D65CE1047DF87 /* TimedSliver-OC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "TimedSliver-OC.podspec"; sourceTree = "<group>"; };
 		87B6D24B007385DD2866B5F66637F5E1 /* Pods-TimedSliver-OC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimedSliver-OC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87FD36990824868461B1AA09F10BC79B /* Pods-TimedSliver-OC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimedSliver-OC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AB498AA5DB40936C8BBFC56DA37B43B /* UIScreen+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+JKCategory.h"; path = "TimedSliver-OC/Classes/UIScreen+JKCategory.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94918DF94DC128C623604C4699FA707B /* Pods-TimedSliver-OC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimedSliver-OC_Example-umbrella.h"; sourceTree = "<group>"; };
+		971C459F57C1A36F14E16FF97CDF39DD /* UIAlertController+JKAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+JKAlert.m"; path = "TimedSliver-OC/Classes/UIAlertController+JKAlert.m"; sourceTree = "<group>"; };
+		97B7B108782520FE1A8C788D163CA2DC /* UIApplication+JKApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+JKApplication.h"; path = "TimedSliver-OC/Classes/UIApplication+JKApplication.h"; sourceTree = "<group>"; };
+		9CB2220C87AAFA04F0E9C34FD7BA4822 /* NSObject+JKCountdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKCountdown.h"; path = "TimedSliver-OC/Classes/NSObject+JKCountdown.h"; sourceTree = "<group>"; };
 		9D3C89F52B79F5418B3BB8324E118C2B /* Pods-TimedSliver-OC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedSliver-OC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A0887D27B01D4EE53793E0DD639D0159 /* UIColor+JKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+JKColor.m"; path = "TimedSliver-OC/Classes/UIColor+JKColor.m"; sourceTree = "<group>"; };
+		A4715FCC1DE80095804B10C57916413C /* UIAlertController+JKAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+JKAlert.h"; path = "TimedSliver-OC/Classes/UIAlertController+JKAlert.h"; sourceTree = "<group>"; };
+		A8374CFD31E38C0B87E77D56D11458EB /* NSBundle+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+JKCategory.h"; path = "TimedSliver-OC/Classes/NSBundle+JKCategory.h"; sourceTree = "<group>"; };
+		A84B93AB313E5EEC0ABD9E5148B01393 /* NSString+JKString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKString.h"; path = "TimedSliver-OC/Classes/NSString+JKString.h"; sourceTree = "<group>"; };
 		A90B0DB276689D5B0EF38EED093A77EB /* Pods-TimedSliver-OC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedSliver-OC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A9FD4ABFBF538E2B7B1903FBAD46020F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AF809FE0CF7CBC06B0DD01AD74854675 /* NSObject+JKSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKSize.h"; path = "TimedSliver-OC/Classes/NSObject+JKSize.h"; sourceTree = "<group>"; };
 		B4C6797E1AC637A9F52DF263F45C33EA /* Pods-TimedSliver-OC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedSliver-OC_Tests-resources.sh"; sourceTree = "<group>"; };
-		B69E1621EFA8F6443254A9E05ACD07A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C03680B149FAD25A67153347C655AE8D /* TimedSliver-OC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TimedSliver-OC.xcconfig"; sourceTree = "<group>"; };
+		B830A4ACE441EB947F4988269F619C2D /* UIViewController+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JKCategory.h"; path = "TimedSliver-OC/Classes/UIViewController+JKCategory.h"; sourceTree = "<group>"; };
+		BD2447564252263E11ACDE3F0A4C4134 /* NSDictionary+JKDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JKDictionary.m"; path = "TimedSliver-OC/Classes/NSDictionary+JKDictionary.m"; sourceTree = "<group>"; };
+		C5385218D55D14E817BA1F86E07B7A16 /* NSFileManager+JKFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+JKFileManager.h"; path = "TimedSliver-OC/Classes/NSFileManager+JKFileManager.h"; sourceTree = "<group>"; };
+		C7C11F3B86A086B3FE9EFC0283AD7360 /* UIColor+JKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+JKColor.h"; path = "TimedSliver-OC/Classes/UIColor+JKColor.h"; sourceTree = "<group>"; };
+		CC0B6D4313D9CC0AF82FE4E7B10C97F5 /* UIApplication+JKApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JKApplication.m"; path = "TimedSliver-OC/Classes/UIApplication+JKApplication.m"; sourceTree = "<group>"; };
 		CD85843F24B9E39449075FC7C6864CF4 /* Pods_TimedSliver_OC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimedSliver_OC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDED0F6FA9696559A4A99B0AD5C960A /* Pods-TimedSliver-OC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimedSliver-OC_Tests-dummy.m"; sourceTree = "<group>"; };
-		D799E893759B01980894DE2370612D3B /* TimedSliver-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSliver-OC-umbrella.h"; sourceTree = "<group>"; };
+		D3EFCC4520388EB16F9E09C4A748924F /* NSDictionary+JKDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JKDictionary.h"; path = "TimedSliver-OC/Classes/NSDictionary+JKDictionary.h"; sourceTree = "<group>"; };
+		D8AD9DBA3024FF183F56BF08DF13E788 /* TimedSliver-OC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TimedSliver-OC.xcconfig"; sourceTree = "<group>"; };
+		DC0738AA49ADDC68779C1052B0B7AF2B /* NSBundle+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+JKCategory.m"; path = "TimedSliver-OC/Classes/NSBundle+JKCategory.m"; sourceTree = "<group>"; };
 		E4E20276E0A0F041F6D439C37667D554 /* Pods-TimedSliver-OC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimedSliver-OC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5E1FF6950A5ED78100724042B2061FD /* NSString+JKString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKString.m"; path = "TimedSliver-OC/Classes/NSString+JKString.m"; sourceTree = "<group>"; };
 		E6A88B7958D45C37350B6D5DDCEBA1CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E788A2181171E459DF91CCF97D2902A0 /* Pods-TimedSliver-OC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimedSliver-OC_Example.modulemap"; sourceTree = "<group>"; };
+		E878F27FA4B96FF60DA604621B943829 /* TimedSliver-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TimedSliver-OC.modulemap"; sourceTree = "<group>"; };
+		F36136465F8997DC1762B6031F647BB2 /* NSObject+JKCountdown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKCountdown.m"; path = "TimedSliver-OC/Classes/NSObject+JKCountdown.m"; sourceTree = "<group>"; };
 		F8C6711FC0FB20A4E6038525E375B96C /* TimedSliver_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimedSliver_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB15909593BF57E762D67B59C75F0FDD /* NSObject+JKCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKCategory.m"; path = "TimedSliver-OC/Classes/NSObject+JKCategory.m"; sourceTree = "<group>"; };
+		FF04B602D7E10113486D21E63E620651 /* NSDate+JKDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JKDate.m"; path = "TimedSliver-OC/Classes/NSDate+JKDate.m"; sourceTree = "<group>"; };
 		FFC7E4549F026F82407447D17FA31315 /* Pods-TimedSliver-OC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimedSliver-OC_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,14 +176,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B2FB7F07BBE24EA70A3AADB13FF1F9A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2D207523FEF0EC6A3017AFA323C3FAA6 /* TimedSliver-OC */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		220C08B01895198A8E1552D6C770692C /* Pods-TimedSliver-OC_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,12 +194,63 @@
 			path = "Target Support Files/Pods-TimedSliver-OC_Example";
 			sourceTree = "<group>";
 		};
-		2D207523FEF0EC6A3017AFA323C3FAA6 /* TimedSliver-OC */ = {
+		281A3E564A8001872A4EA967DF1DC6BD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C4A7F6EA74FF270710324FDF5530D0D /* ReplaceMe.m */,
-				860E607E7D667D05D7DA0E898EFA9B72 /* Pod */,
-				7D5BF82D478FF82926AB40727A859B8D /* Support Files */,
+				771E3CCB5F50680449ECB2D965BC2E09 /* Info.plist */,
+				E878F27FA4B96FF60DA604621B943829 /* TimedSliver-OC.modulemap */,
+				D8AD9DBA3024FF183F56BF08DF13E788 /* TimedSliver-OC.xcconfig */,
+				83F492150F412118D4301EDF4EDF99D1 /* TimedSliver-OC-dummy.m */,
+				18677B750FB1ABB8EFB501AF54A27386 /* TimedSliver-OC-prefix.pch */,
+				5F2857147D0FAA7A4C14B3C51C179533 /* TimedSliver-OC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimedSliver-OC";
+			sourceTree = "<group>";
+		};
+		426CD4FA851EBA479C4857FEB307CC48 /* TimedSliver-OC */ = {
+			isa = PBXGroup;
+			children = (
+				A8374CFD31E38C0B87E77D56D11458EB /* NSBundle+JKCategory.h */,
+				DC0738AA49ADDC68779C1052B0B7AF2B /* NSBundle+JKCategory.m */,
+				113A9A6A1DC849ADE63F05539777D60B /* NSData+JKData.h */,
+				3C727E36E9219AB56C58DB6BAA8A383F /* NSData+JKData.m */,
+				3D39B1C82F82D660F9938D4B6EFF03AE /* NSDate+JKDate.h */,
+				FF04B602D7E10113486D21E63E620651 /* NSDate+JKDate.m */,
+				D3EFCC4520388EB16F9E09C4A748924F /* NSDictionary+JKDictionary.h */,
+				BD2447564252263E11ACDE3F0A4C4134 /* NSDictionary+JKDictionary.m */,
+				C5385218D55D14E817BA1F86E07B7A16 /* NSFileManager+JKFileManager.h */,
+				5F68753135B2A54DCE8AD1480251C121 /* NSFileManager+JKFileManager.m */,
+				5A7040EDEA5A05E72E7A08F317F98A59 /* NSIndexPath+JKIndexPath.h */,
+				6AC5043901D626394D6D9A2EC486FAF6 /* NSIndexPath+JKIndexPath.m */,
+				266DECC26083F88907735127B25AEF68 /* NSIndexSet+JKIndexSet.h */,
+				83A2A7510CC8200432F0A6B85BDF2B06 /* NSIndexSet+JKIndexSet.m */,
+				3615E02E97B597AE394990E9BC41370A /* NSObject+JKCategory.h */,
+				FB15909593BF57E762D67B59C75F0FDD /* NSObject+JKCategory.m */,
+				9CB2220C87AAFA04F0E9C34FD7BA4822 /* NSObject+JKCountdown.h */,
+				F36136465F8997DC1762B6031F647BB2 /* NSObject+JKCountdown.m */,
+				AF809FE0CF7CBC06B0DD01AD74854675 /* NSObject+JKSize.h */,
+				7AD08D5468D3248FBB744CDADE93C263 /* NSObject+JKSize.m */,
+				1F0ABA6A5731D0D1DC1AEEDBCF67AA37 /* NSString+JKCrypto.h */,
+				45C40E7DA6572F165097183D4EE0C913 /* NSString+JKCrypto.m */,
+				3690F4B309AECC62BA7324DD28F27D8C /* NSString+JKSize.h */,
+				82BDD57C7DC0F4A6D751503EBF03B712 /* NSString+JKSize.m */,
+				A84B93AB313E5EEC0ABD9E5148B01393 /* NSString+JKString.h */,
+				E5E1FF6950A5ED78100724042B2061FD /* NSString+JKString.m */,
+				A4715FCC1DE80095804B10C57916413C /* UIAlertController+JKAlert.h */,
+				971C459F57C1A36F14E16FF97CDF39DD /* UIAlertController+JKAlert.m */,
+				97B7B108782520FE1A8C788D163CA2DC /* UIApplication+JKApplication.h */,
+				CC0B6D4313D9CC0AF82FE4E7B10C97F5 /* UIApplication+JKApplication.m */,
+				C7C11F3B86A086B3FE9EFC0283AD7360 /* UIColor+JKColor.h */,
+				A0887D27B01D4EE53793E0DD639D0159 /* UIColor+JKColor.m */,
+				8AB498AA5DB40936C8BBFC56DA37B43B /* UIScreen+JKCategory.h */,
+				18DC00F8F5591843EADA4E018D9FDBD6 /* UIScreen+JKCategory.m */,
+				5BC7AD749580D4736D07E372D9722B1E /* UIView+JKCategory.h */,
+				491BDABAF7E82DDDBF3383A632981871 /* UIView+JKCategory.m */,
+				B830A4ACE441EB947F4988269F619C2D /* UIViewController+JKCategory.h */,
+				492A7FE0D042D8FB18D16BA782EFBEFB /* UIViewController+JKCategory.m */,
+				F99ABBAB77F6A0D4891325E654225B37 /* Pod */,
+				281A3E564A8001872A4EA967DF1DC6BD /* Support Files */,
 			);
 			name = "TimedSliver-OC";
 			path = ../..;
@@ -165,39 +282,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7D5BF82D478FF82926AB40727A859B8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3CF1CF19B8797F668237C50B39B084FF /* Info.plist */,
-				27C0E1D8BDAD7E856321E6C7E2BFCFDE /* TimedSliver-OC.modulemap */,
-				C03680B149FAD25A67153347C655AE8D /* TimedSliver-OC.xcconfig */,
-				0E28EEF04F7D8184DE3E2A7178EA82C9 /* TimedSliver-OC-dummy.m */,
-				2363FED575F2A4B7D09FC0456903023F /* TimedSliver-OC-prefix.pch */,
-				D799E893759B01980894DE2370612D3B /* TimedSliver-OC-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TimedSliver-OC";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1B2FB7F07BBE24EA70A3AADB13FF1F9A /* Development Pods */,
+				FB37C61A5E94843C01A90A3F051B9599 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D6008084423DF618BC0A649CE108D3FF /* Products */,
 				B1FAD0F393491694CB91F6A36F0081F2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		860E607E7D667D05D7DA0E898EFA9B72 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B69E1621EFA8F6443254A9E05ACD07A2 /* LICENSE */,
-				A9FD4ABFBF538E2B7B1903FBAD46020F /* README.md */,
-				8080F01820CF46BB4190373953CA64BF /* TimedSliver-OC.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B1FAD0F393491694CB91F6A36F0081F2 /* Targets Support Files */ = {
@@ -227,9 +320,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F99ABBAB77F6A0D4891325E654225B37 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				04D9FFA96B67C2DB995BAD61115D6C78 /* LICENSE */,
+				239935638979D4BB4D0ADF838007C4EE /* README.md */,
+				877236668D5E4150727D65CE1047DF87 /* TimedSliver-OC.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB37C61A5E94843C01A90A3F051B9599 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				426CD4FA851EBA479C4857FEB307CC48 /* TimedSliver-OC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		33208DA8863CBADB08A6BC1EDE0DA74C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC183AFEF53DD2A0359854ADD4988069 /* NSBundle+JKCategory.h in Headers */,
+				8CE5C4D236146949F8CE25F6831829FC /* NSData+JKData.h in Headers */,
+				4CE26354793D51C7187499B37F34A6C0 /* NSDate+JKDate.h in Headers */,
+				CBB462D3CDA631E6C3DC6CF0134C4F9B /* NSDictionary+JKDictionary.h in Headers */,
+				BE7E72293288CC92AFA4C1B9FFB95F87 /* NSFileManager+JKFileManager.h in Headers */,
+				4703C8F26AA51BACC73DFBE075DA288E /* NSIndexPath+JKIndexPath.h in Headers */,
+				A471EEC721FEFD331576DD9E5E9839C8 /* NSIndexSet+JKIndexSet.h in Headers */,
+				5EAC33DEED499D83A022B7EBDAEA7262 /* NSObject+JKCategory.h in Headers */,
+				BCF361F18AC4299C8DF5702DD08A44B4 /* NSObject+JKCountdown.h in Headers */,
+				EF8892A76FDA765BC4589007E196CC27 /* NSObject+JKSize.h in Headers */,
+				93F0AE201B4B0055BDFF30B0344A7584 /* NSString+JKCrypto.h in Headers */,
+				B783FDB9C5E34C8CD43AFCFC3AD23CFC /* NSString+JKSize.h in Headers */,
+				99C2FF3815CC41A5B26490D20BB37970 /* NSString+JKString.h in Headers */,
+				B5A860E764916C54EC02731B49F4266C /* TimedSliver-OC-umbrella.h in Headers */,
+				0DAB365F28DA99E136AA019A6B698A49 /* UIAlertController+JKAlert.h in Headers */,
+				29474C88214B819C72F11C6373500140 /* UIApplication+JKApplication.h in Headers */,
+				A3F3F4E68A9CCF3B149EB10E0DD9735B /* UIColor+JKColor.h in Headers */,
+				0ECC54C140B45965F980B77EEC3A6249 /* UIScreen+JKCategory.h in Headers */,
+				01399F58631F5142B32A098A004D4E99 /* UIView+JKCategory.h in Headers */,
+				B6D9EB3DF75DFF436035DB6E0D424EB5 /* UIViewController+JKCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3623E15D57A3DAD47E20BD71E0F80BA3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,14 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6747101D07BDC75BE77F132DED761D92 /* Pods-TimedSliver-OC_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0600FB662143247F8E168172CC8A657 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD0CAE42427FC12D367A1CF9351F4583 /* TimedSliver-OC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +409,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E97BB975180BEE83F2C3E62F53A31D /* Build configuration list for PBXNativeTarget "TimedSliver-OC" */;
 			buildPhases = (
-				8B407BBFFAA60A16BF6B1B3C421834E7 /* Sources */,
+				0928359152108E3F74BD5F76B3F1CD41 /* Sources */,
 				72817055080BE3654519FC9C27DDE06B /* Frameworks */,
-				E0600FB662143247F8E168172CC8A657 /* Headers */,
+				33208DA8863CBADB08A6BC1EDE0DA74C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,20 +469,38 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0928359152108E3F74BD5F76B3F1CD41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8C8E56C1E5557C13FEC69DCC67BEC7 /* NSBundle+JKCategory.m in Sources */,
+				3DB41BC66827E149B7A26F539CD7F9E4 /* NSData+JKData.m in Sources */,
+				A564755AD3EE1E8D12D52E5E31F059FF /* NSDate+JKDate.m in Sources */,
+				00441737C79D98627C7388CEA14C0383 /* NSDictionary+JKDictionary.m in Sources */,
+				177534250C61C52EDE9276F7260C1BBD /* NSFileManager+JKFileManager.m in Sources */,
+				743282572385E4718FC3106F074C0AF2 /* NSIndexPath+JKIndexPath.m in Sources */,
+				69EF13FAB176472B357F9FD7F25A033A /* NSIndexSet+JKIndexSet.m in Sources */,
+				85B25832B1B3E69D133B0F39DD69F64A /* NSObject+JKCategory.m in Sources */,
+				1C27B9933065744491F8F7B5CEB914B9 /* NSObject+JKCountdown.m in Sources */,
+				7E09D0D506421DA45E0F1A6FD3AF7E7C /* NSObject+JKSize.m in Sources */,
+				1BCDD0A4218AA7A64CBB26A8E3D95F6C /* NSString+JKCrypto.m in Sources */,
+				A8BEBE50921717FB6B3063DDAA20755E /* NSString+JKSize.m in Sources */,
+				23A4967A177AE999958237325369214A /* NSString+JKString.m in Sources */,
+				FB84D0B4D87B9C294FF0FED1384557F6 /* TimedSliver-OC-dummy.m in Sources */,
+				752DD62C2B344DA95C0DC91E83F35F5A /* UIAlertController+JKAlert.m in Sources */,
+				4597FCBA50BA8F4B679D7BF926B760CA /* UIApplication+JKApplication.m in Sources */,
+				E30789CF9F07E5D2F038DEA684CEF590 /* UIColor+JKColor.m in Sources */,
+				19B98B6D4930E38108FCBBCCD12DFB88 /* UIScreen+JKCategory.m in Sources */,
+				7405477BF7042D201C1A715CA10EFBA5 /* UIView+JKCategory.m in Sources */,
+				26F954DD49632664AEB008601B390B33 /* UIViewController+JKCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A3DE0EC62EA3D373F0588A3333862B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1768719CFBA9F1AE9BE10F6E168CF2EC /* Pods-TimedSliver-OC_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B407BBFFAA60A16BF6B1B3C421834E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D822E735E4ED197497B1C65AE99EDFAA /* ReplaceMe.m in Sources */,
-				2989F6577C174CF1BD2D148D50142669 /* TimedSliver-OC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +599,7 @@
 		};
 		4C1F7D89D76C04D25615F7C9619ECDFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03680B149FAD25A67153347C655AE8D /* TimedSliver-OC.xcconfig */;
+			baseConfigurationReference = D8AD9DBA3024FF183F56BF08DF13E788 /* TimedSliver-OC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -482,7 +630,7 @@
 		};
 		6162C6E959C809F5DCDEB7587F60D5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03680B149FAD25A67153347C655AE8D /* TimedSliver-OC.xcconfig */;
+			baseConfigurationReference = D8AD9DBA3024FF183F56BF08DF13E788 /* TimedSliver-OC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
