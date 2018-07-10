@@ -10,7 +10,7 @@
 
 @implementation UIAlertController (JKAlert)
 
-+ (UIAlertController *)jk_singleButtonAlertWithTitle:(NSString *)title message:(NSString *)message buttonText:(NSString *)buttonText completion:(void(^)(void))completion {
++ (void)jk_singleButtonAlertWithTitle:(NSString *)title message:(NSString *)message buttonText:(NSString *)buttonText completion:(void(^)(void))completion {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *action = [UIAlertAction actionWithTitle:buttonText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         if (completion) {
@@ -19,7 +19,48 @@
     }];
     [alert addAction:action];
     [alert jk_show];
-    return alert;
+}
+
++ (void)jk_DoubleButtonAlertWithTitle:(NSString *)title message:(NSString *)message cancelText:(NSString *)cancelText confirmText:(NSString *)confirmText cancel:(void(^)(void))cancel confirm:(void(^)(void))confirm {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        if (cancel) {
+            cancel();
+        }
+    }];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:confirmText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        if (confirm) {
+            confirm();
+        }
+    }];
+    [alert addAction:cancelAction];
+    [alert addAction:okAction];
+    [alert jk_show];
+}
+
++ (void)jk_DoubleButtonAlertWithTitle:(NSString *)title message:(NSString *)message cancelText:(NSString *)cancelText cancelColor:(UIColor *)cancelColor confirmText:(NSString *)confirmText confirmColor:(UIColor *)confirmColor cancel:(void(^)(void))cancel confirm:(void(^)(void))confirm {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        if (cancel) {
+            cancel();
+        }
+    }];
+    //修改按钮
+    if ([cancelAction valueForKey:@"titleTextColor"]) {
+        [cancelAction setValue:cancelColor forKey:@"titleTextColor"];
+    }
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:confirmText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        if (confirm) {
+            confirm();
+        }
+    }];
+    //修改按钮
+    if ([okAction valueForKey:@"titleTextColor"]) {
+        [okAction setValue:confirmColor forKey:@"titleTextColor"];
+    }
+    [alert addAction:cancelAction];
+    [alert addAction:okAction];
+    [alert jk_show];
 }
 
 - (void)jk_show {
