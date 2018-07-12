@@ -23,6 +23,7 @@
 #import "NSString+JKCrypto.h"
 #import "NSString+JKSize.h"
 #import "NSString+JKString.h"
+#import "NSString+JSON.h"
 #import "UIAlertController+JKAlert.h"
 #import "UIApplication+JKApplication.h"
 #import "UIColor+JKColor.h"
