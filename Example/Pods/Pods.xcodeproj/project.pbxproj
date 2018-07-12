@@ -20,6 +20,8 @@
 		23A4967A177AE999958237325369214A /* NSString+JKString.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E1FF6950A5ED78100724042B2061FD /* NSString+JKString.m */; };
 		26F954DD49632664AEB008601B390B33 /* UIViewController+JKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 492A7FE0D042D8FB18D16BA782EFBEFB /* UIViewController+JKCategory.m */; };
 		29474C88214B819C72F11C6373500140 /* UIApplication+JKApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B7B108782520FE1A8C788D163CA2DC /* UIApplication+JKApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D41A9F20F7321F00C70C2B /* NSString+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D41A9D20F7321E00C70C2B /* NSString+JSON.h */; };
+		34D41AA020F7321F00C70C2B /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D41A9E20F7321F00C70C2B /* NSString+JSON.m */; };
 		3DB41BC66827E149B7A26F539CD7F9E4 /* NSData+JKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C727E36E9219AB56C58DB6BAA8A383F /* NSData+JKData.m */; };
 		4597FCBA50BA8F4B679D7BF926B760CA /* UIApplication+JKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B6D4313D9CC0AF82FE4E7B10C97F5 /* UIApplication+JKApplication.m */; };
 		4703C8F26AA51BACC73DFBE075DA288E /* NSIndexPath+JKIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7040EDEA5A05E72E7A08F317F98A59 /* NSIndexPath+JKIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,6 +86,8 @@
 		239935638979D4BB4D0ADF838007C4EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24F244646A177B8A7C18AA176CE4B958 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		266DECC26083F88907735127B25AEF68 /* NSIndexSet+JKIndexSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+JKIndexSet.h"; path = "TimedSliver-OC/Classes/NSIndexSet+JKIndexSet.h"; sourceTree = "<group>"; };
+		34D41A9D20F7321E00C70C2B /* NSString+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		34D41A9E20F7321F00C70C2B /* NSString+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
 		354A62D012B42BE48D33380DD800BEE3 /* Pods-TimedSliver-OC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimedSliver-OC_Tests.modulemap"; sourceTree = "<group>"; };
 		3615E02E97B597AE394990E9BC41370A /* NSObject+JKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKCategory.h"; path = "TimedSliver-OC/Classes/NSObject+JKCategory.h"; sourceTree = "<group>"; };
 		3690F4B309AECC62BA7324DD28F27D8C /* NSString+JKSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKSize.h"; path = "TimedSliver-OC/Classes/NSString+JKSize.h"; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				82BDD57C7DC0F4A6D751503EBF03B712 /* NSString+JKSize.m */,
 				A84B93AB313E5EEC0ABD9E5148B01393 /* NSString+JKString.h */,
 				E5E1FF6950A5ED78100724042B2061FD /* NSString+JKString.m */,
+				34D41A9D20F7321E00C70C2B /* NSString+JSON.h */,
+				34D41A9E20F7321F00C70C2B /* NSString+JSON.m */,
 				A4715FCC1DE80095804B10C57916413C /* UIAlertController+JKAlert.h */,
 				971C459F57C1A36F14E16FF97CDF39DD /* UIAlertController+JKAlert.m */,
 				97B7B108782520FE1A8C788D163CA2DC /* UIApplication+JKApplication.h */,
@@ -380,6 +386,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D41A9F20F7321F00C70C2B /* NSString+JSON.h in Headers */,
 				6747101D07BDC75BE77F132DED761D92 /* Pods-TimedSliver-OC_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				508443168E5C976A88CA39322BF95082 /* Pods-TimedSliver-OC_Example-dummy.m in Sources */,
+				34D41AA020F7321F00C70C2B /* NSString+JSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
