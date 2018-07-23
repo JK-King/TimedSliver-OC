@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83DDB3020E57C0A61125FD42 /* TimedSliver-OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "TimedSliver-OC.podspec"; path = "../TimedSliver-OC.podspec"; sourceTree = "<group>"; };
+		83DDB3020E57C0A61125FD42 /* TimedSliver-OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "TimedSliver-OC.podspec"; path = "../TimedSliver-OC.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADC8304CCEE1A7887E729A36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CC725F86AF278BE87C042F65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ADC8304CCEE1A7887E729A36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC725F86AF278BE87C042F65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3A696E60DA7E85610358E1B /* Pods-TimedSliver-OC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimedSliver-OC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimedSliver-OC_Example/Pods-TimedSliver-OC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FF1DAE6E354A7D272FCCC217 /* Pods-TimedSliver-OC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimedSliver-OC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimedSliver-OC_Tests/Pods-TimedSliver-OC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

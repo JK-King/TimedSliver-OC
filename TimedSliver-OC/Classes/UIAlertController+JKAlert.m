@@ -49,6 +49,7 @@
     if ([cancelAction valueForKey:@"titleTextColor"]) {
         [cancelAction setValue:cancelColor forKey:@"titleTextColor"];
     }
+    [alert addAction:cancelAction];
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:confirmText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         if (confirm) {
             confirm();
@@ -58,7 +59,6 @@
     if ([okAction valueForKey:@"titleTextColor"]) {
         [okAction setValue:confirmColor forKey:@"titleTextColor"];
     }
-    [alert addAction:cancelAction];
     [alert addAction:okAction];
     [alert jk_show];
 }
