@@ -17,4 +17,6 @@
 
 + (NSTimeInterval)jk_dayInSeconds;
 
++ (NSString *)currentDateOfFormat:(NSString *)format;
+
 @end
