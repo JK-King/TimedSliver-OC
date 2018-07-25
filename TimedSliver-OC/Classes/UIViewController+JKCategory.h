@@ -10,6 +10,8 @@
 
 @interface UIViewController (JKCategory)
 
+@property (nonatomic, strong) UIViewController *currentController;
+
 + (instancetype)jk_initFromNib;
-        
+
 @end
