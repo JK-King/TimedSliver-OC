@@ -23,7 +23,7 @@
 
 + (void)jk_DoubleButtonAlertWithTitle:(NSString *)title message:(NSString *)message cancelText:(NSString *)cancelText confirmText:(NSString *)confirmText cancel:(void(^)(void))cancel confirm:(void(^)(void))confirm {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         if (cancel) {
             cancel();
         }
@@ -33,21 +33,13 @@
             confirm();
         }
     }];
-    [alert addAction:cancelAction];
     [alert addAction:okAction];
+    [alert addAction:cancelAction];
     [alert jk_show];
 }
 
 + (void)jk_DoubleButtonAlertWithTitle:(NSString *)title message:(NSString *)message cancelText:(NSString *)cancelText cancelColor:(UIColor *)cancelColor confirmText:(NSString *)confirmText confirmColor:(UIColor *)confirmColor cancel:(void(^)(void))cancel confirm:(void(^)(void))confirm {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        if (cancel) {
-            cancel();
-        }
-    }];
-    //修改按钮
-    [cancelAction setValue:cancelColor forKey:@"titleTextColor"];
-    [alert addAction:cancelAction];
     
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:confirmText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         if (confirm) {
@@ -57,6 +49,16 @@
     //修改按钮
     [okAction setValue:confirmColor forKey:@"titleTextColor"];
     [alert addAction:okAction];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        if (cancel) {
+            cancel();
+        }
+    }];
+    //修改按钮
+    [cancelAction setValue:cancelColor forKey:@"titleTextColor"];
+    [alert addAction:cancelAction];
+    
     [alert jk_show];
 }
 
