@@ -6,7 +6,7 @@
 //
 
 #import "UIView+JKCategory.h"
-#import "NSObject+JKCategory.m"
+#import "NSObject+JKCategory.h"
 
 @implementation UIView (JKCategory)
 
