@@ -38,7 +38,7 @@
     [alert jk_show];
 }
 
-+ (void)jk_DoubleButtonAlertWithTitle:(NSString *)title message:(NSString *)message cancelText:(NSString *)cancelText cancelColor:(UIColor *)cancelColor confirmText:(NSString *)confirmText confirmColor:(UIColor *)confirmColor cancel:(void(^)(void))cancel confirm:(void(^)(void))confirm {
++ (void)jk_DoubleButtonAlertWithTitle:(NSString *)title titleColor:(UIColor *)titleColor message:(NSString *)message messageColor:(UIColor *)messageColor cancelText:(NSString *)cancelText cancelColor:(UIColor *)cancelColor confirmText:(NSString *)confirmText confirmColor:(UIColor *)confirmColor cancel:(void(^)(void))cancel confirm:(void(^)(void))confirm {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:confirmText style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {

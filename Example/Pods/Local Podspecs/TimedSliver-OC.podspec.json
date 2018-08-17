@@ -1,6 +1,6 @@
 {
   "name": "TimedSliver-OC",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "summary": "TimedSliver-OC 常用类的分类",
   "description": "TimedSliver-OC仿照Swift的TimedSilver，封装的常用类的扩展",
   "homepage": "https://github.com/JK-King/TimedSliver-OC",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JK-King/TimedSliver-OC.git",
-    "tag": "0.3.1"
+    "tag": "0.3.2"
   },
   "platforms": {
     "ios": "8.0"

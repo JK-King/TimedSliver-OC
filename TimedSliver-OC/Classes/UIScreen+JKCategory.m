@@ -33,4 +33,12 @@
     return UIScreen.jk_statusBarHeight > 20.0f ? 83.0f : 49.0f;
 }
 
++ (CGFloat)jk_GapStatusBarHeight {
+    return UIScreen.jk_statusBarHeight - 20;
+}
+
++ (CGFloat)jk_GapTabBarHeight {
+    return UIScreen.jk_tabBarHeight-49;
+}
+
 @end
