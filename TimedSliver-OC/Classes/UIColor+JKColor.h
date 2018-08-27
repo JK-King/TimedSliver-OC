@@ -17,7 +17,7 @@
 
 @interface UIColor (string)
 
-+ (UIColor *)colorWithHexString:(NSString *)stringToConvert;
++ (UIColor *)colorWithHexString:(NSString *)hxString;
 + (UIColor *)colorWithHex:(int)hex;
 
 @end
@@ -25,7 +25,14 @@
 @interface UIColor (image)
 
 + (UIImage *)createImageWithColor:(UIColor *)color;
++ (UIImage *)createImageWithColor:(UIColor *)color size:(CGSize)size;
 + (UIImage *)createImageWithColor:(UIColor *)color withRadius:(float)Radius;
-+(UIImage*) circleImage:(UIImage*) image withParam:(CGFloat) inset;
++(UIImage*)circleImage:(UIImage*) image withParam:(CGFloat) inset;
+
+@end
+
+@interface UIColor (layer)
+
++ (CAGradientLayer *)setGradualChangingColor:(UIView *)view fromColor:(NSString *)fromHexColorStr toColor:(NSString *)toHexColorStr;
 
 @end
