@@ -1,13 +1,13 @@
 //
-//  UIBarButtonItem+BarButton.m
+//  UIBarButtonItem+JKItem.m
 //  TimedSliver-OC
 //
 //  Created by Jiankun Zhang on 2018/8/27.
 //
 
-#import "UIBarButtonItem+BarButton.h"
+#import "UIBarButtonItem+JKItem.h"
 
-@implementation UIBarButtonItem (BarButton)
+@implementation UIBarButtonItem (JKItem)
 
 - (void)jk_setFont:(UIFont *)font forState:(UIControlState)state {
     [self jk_setItemFont:font forState:state];

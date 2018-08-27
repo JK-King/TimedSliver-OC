@@ -26,6 +26,7 @@
 #import "NSString+JSON.h"
 #import "UIAlertController+JKAlert.h"
 #import "UIApplication+JKApplication.h"
+#import "UIBarButtonItem+JKItem.h"
 #import "UIButton+JK.h"
 #import "UIColor+JKColor.h"
 #import "UIFont+Font.h"
