@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
 
 @interface NSString (JKSize)
 
